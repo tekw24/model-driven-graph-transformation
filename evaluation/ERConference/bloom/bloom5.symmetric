@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="ASCII"?>
+<symmetric:SymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:symmetric="http://www.sidiff.org/difference/symmetric/1.0" uriModelA="platform:/resource/ERConference/bloom/bloom.graph" uriModelB="platform:/resource/ERConference/bloom/bloomv2.graph" notOverlappings="//@changeSets.0 //@changeSets.1 //@changeSets.2 //@changeSets.3 //@changeSets.5 //@changeSets.6 //@changeSets.7 //@changeSets.9 //@changeSets.10 //@changeSets.11 //@changeSets.12 //@changeSets.13 //@changeSets.14 //@changeSets.17 //@changeSets.18 //@changeSets.23 //@changeSets.28 //@changeSets.29 //@changeSets.32 //@changeSets.33">
+  <changes xsi:type="symmetric:RemoveObject">
+    <obj href="bloom.graph#//@items.13/@properties.2/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveObject">
+    <obj href="bloom.graph#//@items.17/@constraints.0"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="bloom.graph#//@items.17/@constraints.0"/>
+    <tgt href="bloom.graph#//@items.17"/>
+    <type href="http://www.thm.de/graph#//Constraint/Label"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="bloom.graph#//@items.17/@constraints.0"/>
+    <tgt href="bloom.graph#//@items.17/@properties.3"/>
+    <type href="http://www.thm.de/graph#//UniqueConstraint/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.3"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.3"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.3"/>
+    <tgt href="bloomv2.graph#//@items.3/@properties.0"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.3"/>
+    <tgt href="bloomv2.graph#//@items.40"/>
+    <type href="http://www.thm.de/graph#//NodeLabel/nodes"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.4"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.4"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.4"/>
+    <tgt href="bloomv2.graph#//@items.4/@properties.0"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.4"/>
+    <tgt href="bloomv2.graph#//@items.47"/>
+    <type href="http://www.thm.de/graph#//NodeLabel/nodes"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.4/@properties.0"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.4/@properties.0"/>
+    <tgt href="bloomv2.graph#//@items.4/@properties.0/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.4/@properties.0/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.5"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.5"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.5"/>
+    <tgt href="bloomv2.graph#//@items.5/@properties.2"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.5"/>
+    <tgt href="bloomv2.graph#//@items.5/@properties.1"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.5"/>
+    <tgt href="bloomv2.graph#//@items.5/@properties.0"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.5"/>
+    <tgt href="bloomv2.graph#//@items.41"/>
+    <type href="http://www.thm.de/graph#//NodeLabel/nodes"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.16/@properties.2/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.31"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.31"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.31"/>
+    <tgt href="bloomv2.graph#//@items.64"/>
+    <type href="http://www.thm.de/graph#//EdgeLabel/edges"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.31"/>
+    <tgt href="bloomv2.graph#//@items.59"/>
+    <type href="http://www.thm.de/graph#//EdgeLabel/edges"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.33"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.33"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.33"/>
+    <tgt href="bloomv2.graph#//@items.58"/>
+    <type href="http://www.thm.de/graph#//EdgeLabel/edges"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.41"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.41"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.41"/>
+    <tgt href="bloomv2.graph#//@items.5"/>
+    <type href="http://www.thm.de/graph#//NodeType/label"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.41"/>
+    <tgt href="bloomv2.graph#//@items.64"/>
+    <type href="http://www.thm.de/graph#//NodeType/incoming"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.41"/>
+    <tgt href="bloomv2.graph#//@items.59"/>
+    <type href="http://www.thm.de/graph#//NodeType/incoming"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.47"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.47"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.47"/>
+    <tgt href="bloomv2.graph#//@items.4"/>
+    <type href="http://www.thm.de/graph#//NodeType/label"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.47"/>
+    <tgt href="bloomv2.graph#//@items.58"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.58"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.58"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.58"/>
+    <tgt href="bloomv2.graph#//@items.33"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.58"/>
+    <tgt href="bloomv2.graph#//@items.47"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.58"/>
+    <tgt href="bloomv2.graph#//@items.48"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.59"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.59"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.59"/>
+    <tgt href="bloomv2.graph#//@items.31"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.59"/>
+    <tgt href="bloomv2.graph#//@items.42"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.59"/>
+    <tgt href="bloomv2.graph#//@items.41"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.64"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.64"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.64"/>
+    <tgt href="bloomv2.graph#//@items.31"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.64"/>
+    <tgt href="bloomv2.graph#//@items.57"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.64"/>
+    <tgt href="bloomv2.graph#//@items.41"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="bloomv2.graph#//@items.82"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.82"/>
+    <tgt href="bloomv2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.82"/>
+    <tgt href="bloomv2.graph#//@items.25"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.82"/>
+    <tgt href="bloomv2.graph#//@items.57"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.82"/>
+    <tgt href="bloomv2.graph#//@items.39"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#/"/>
+    <tgt href="bloomv2.graph#//@items.31"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#/"/>
+    <tgt href="bloomv2.graph#//@items.5"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#/"/>
+    <tgt href="bloomv2.graph#//@items.47"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#/"/>
+    <tgt href="bloomv2.graph#//@items.33"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#/"/>
+    <tgt href="bloomv2.graph#//@items.41"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#/"/>
+    <tgt href="bloomv2.graph#//@items.64"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#/"/>
+    <tgt href="bloomv2.graph#//@items.4"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#/"/>
+    <tgt href="bloomv2.graph#//@items.59"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#/"/>
+    <tgt href="bloomv2.graph#//@items.3"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#/"/>
+    <tgt href="bloomv2.graph#//@items.58"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="bloom.graph#//@items.17"/>
+    <tgt href="bloom.graph#//@items.17/@constraints.0"/>
+    <type href="http://www.thm.de/graph#//Label/constraints"/>
+  </changes>
+  <changes xsi:type="symmetric:AttributeValueChange">
+    <objA href="bloom.graph#//@items.17"/>
+    <objB href="bloomv2.graph#//@items.20"/>
+    <type href="http://www.thm.de/graph#//Label/name"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="bloom.graph#//@items.2"/>
+    <tgt href="bloom.graph#//@items.2/@properties.1"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="bloom.graph#//@items.1"/>
+    <tgt href="bloom.graph#//@items.1/@properties.4"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="bloom.graph#//@items.1"/>
+    <tgt href="bloom.graph#//@items.1/@properties.2"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="bloom.graph#//@items.1"/>
+    <tgt href="bloom.graph#//@items.1/@properties.3"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.48"/>
+    <tgt href="bloomv2.graph#//@items.58"/>
+    <type href="http://www.thm.de/graph#//NodeType/incoming"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.57"/>
+    <tgt href="bloomv2.graph#//@items.64"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.42"/>
+    <tgt href="bloomv2.graph#//@items.59"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="bloom.graph#//@items.13/@properties.2"/>
+    <tgt href="bloom.graph#//@items.13/@properties.2/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.16/@properties.2"/>
+    <tgt href="bloomv2.graph#//@items.16/@properties.2/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AttributeValueChange">
+    <objA href="bloom.graph#//@items.13/@properties.2"/>
+    <objB href="bloomv2.graph#//@items.16/@properties.2"/>
+    <type href="http://www.thm.de/graph#//Property/name"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="bloomv2.graph#//@items.40"/>
+    <tgt href="bloomv2.graph#//@items.3"/>
+    <type href="http://www.thm.de/graph#//NodeType/label"/>
+  </changes>
+  <changeSets changes="//@changes.34 //@changes.60 //@changes.35" name="CREATE_NodeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_NodeType_IN_PropertyGraph_(items)" description="Creates one NodeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.47"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.12 //@changes.10" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.4/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.38 //@changes.67 //@changes.39" name="CREATE_EdgeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_EdgeType_IN_PropertyGraph_(items)" description="Creates one EdgeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VNqLSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.58"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.72 //@changes.17" name="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" priority="1" recognitionRName="RR: MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" refinementLevel="5" editRName="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" description="MOVEs Property from Label(Reference:properties) to Label(Reference:properties" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.1"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.1/@properties.2"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.2"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.5/@properties.2"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtyBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.21 //@changes.78" name="CREATE_PropertyValueType_execute" priority="1" recognitionRName="RR: CREATE_PropertyValueType_execute" refinementLevel="3" editRName="CREATE_PropertyValueType_execute" subsets="//@unusedChangeSets.4" description="Creates one StringType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_AP3nEDGlEfCg2YAAzmjXgQ">
+        <value>
+          <elements href="bloom.graph#//@items.13/@properties.2"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_AP3nEDGlEfCg2YAAzmjXgQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.16/@properties.2"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPO4lxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.16/@properties.2/@value"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.71 //@changes.19" name="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" priority="1" recognitionRName="RR: MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" refinementLevel="5" editRName="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" description="MOVEs Property from Label(Reference:properties) to Label(Reference:properties" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.1"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.1/@properties.4"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.2"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.5/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtyBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.0" name="DELETE_StringType" priority="1" recognitionRName="RR: DELETE_StringType" refinementLevel="2" editRName="DELETE_StringType" description="Deletes one StringType" numberOfParams="1">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQjuRRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.13/@properties.2/@value"/>
+        </value>
+      </nodeOccurrencesA>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.79" name="SET_ATTRIBUTE_Property_Name" priority="1" recognitionRName="RR: SET_ATTRIBUTE_Property_Name" refinementLevel="1" editRName="SET_ATTRIBUTE_Property_Name" description="Sets Property Name" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VO_A9RuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.13/@properties.2"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VO_A9RuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.16/@properties.2"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.14 //@changes.13" name="CREATE_PropertyValueType_execute" priority="1" recognitionRName="RR: CREATE_PropertyValueType_execute" refinementLevel="3" editRName="CREATE_PropertyValueType_execute" subsets="//@unusedChangeSets.10" description="Creates one StringType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_AP3nEDGlEfCg2YAAzmjXgQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.4/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPO4lxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.4/@properties.0/@value"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.73 //@changes.18" name="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" priority="1" recognitionRName="RR: MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" refinementLevel="5" editRName="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" description="MOVEs Property from Label(Reference:properties) to Label(Reference:properties" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.1"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.1/@properties.3"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.2"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.5/@properties.1"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtyBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.48 //@changes.63 //@changes.49" name="CREATE_EdgeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_EdgeType_IN_PropertyGraph_(items)" description="Creates one EdgeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VNqLSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.64"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.4 //@changes.66 //@changes.5" name="CREATE_NodeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_NodeLabel_IN_PropertyGraph_(items)" description="Creates one NodeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOOzDBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.3"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.43 //@changes.65 //@changes.44" name="CREATE_EdgeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_EdgeType_IN_PropertyGraph_(items)" description="Creates one EdgeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VNqLSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.59"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.29 //@changes.62 //@changes.30" name="CREATE_NodeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_NodeType_IN_PropertyGraph_(items)" description="Creates one NodeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.41"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.8 //@changes.64 //@changes.9" name="CREATE_NodeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_NodeLabel_IN_PropertyGraph_(items)" description="Creates one NodeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOOzDBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.24 //@changes.50" name="ADD_EdgeLabel_(edges)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_EdgeLabel_(edges)_TGT_EdgeType" refinementLevel="5" editRName="ADD_EdgeLabel_(edges)_TGT_EdgeType" overlayings="//@unusedChangeSets.3" description="Adds to EdgeLabel's reference edges the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPKAFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.64"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.31"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.75 //@changes.51" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@unusedChangeSets.0" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.50"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQrqFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.64"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.57"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.70 //@changes.6" name="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" priority="1" recognitionRName="RR: MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" refinementLevel="5" editRName="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" description="MOVEs Property from Label(Reference:properties) to Label(Reference:properties" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.2"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.2/@properties.1"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.3/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtyBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.3"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.1 //@changes.68 //@changes.2" name="DELETE_UniqueConstraint_IN_Label_(constraints)" priority="1" recognitionRName="RR: DELETE_UniqueConstraint_IN_Label_(constraints)" refinementLevel="4" editRName="DELETE_UniqueConstraint_IN_Label_(constraints)" description="Deletes one UniqueConstraint in Label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VOClyBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.17/@constraints.0"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VOClxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.17"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VOClxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.20"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.74 //@changes.42" name="ADD_NodeType_(incoming)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(incoming)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(incoming)_TGT_EdgeType" overlayings="//@unusedChangeSets.8" description="Adds to NodeType's reference incoming the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPaexhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.41"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPaexhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.48"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPaexxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.58"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.37 //@changes.41" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@unusedChangeSets.7" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VQrqFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.58"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.47"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.32 //@changes.52" name="ADD_NodeType_(incoming)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(incoming)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(incoming)_TGT_EdgeType" overlayings="//@unusedChangeSets.5" description="Adds to NodeType's reference incoming the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPaexhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.41"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPaexxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.64"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.28 //@changes.40" name="ADD_EdgeLabel_(edges)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_EdgeLabel_(edges)_TGT_EdgeType" refinementLevel="5" editRName="ADD_EdgeLabel_(edges)_TGT_EdgeType" overlayings="//@unusedChangeSets.9" description="Adds to EdgeLabel's reference edges the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPKAFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.58"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.33"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.15 //@changes.59 //@changes.16" name="CREATE_NodeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_NodeLabel_IN_PropertyGraph_(items)" description="Creates one NodeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOOzDBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.20 //@changes.31" name="ADD_NodeLabel_(nodes)_TGT_NodeType" priority="1" recognitionRName="RR: ADD_NodeLabel_(nodes)_TGT_NodeType" refinementLevel="5" editRName="ADD_NodeLabel_(nodes)_TGT_NodeType" overlayings="//@unusedChangeSets.11" description="Adds to NodeLabel's reference nodes the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VN6p9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VN6p9xuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.41"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.46 //@changes.76" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@unusedChangeSets.2" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQNI9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.36"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQNI9RuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.59"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQNI9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.42"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.80 //@changes.7" name="ADD_NodeType_(label)_TGT_NodeLabel" priority="1" recognitionRName="RR: ADD_NodeType_(label)_TGT_NodeLabel" refinementLevel="5" editRName="ADD_NodeType_(label)_TGT_NodeLabel" overlayings="//@unusedChangeSets.12" description="Adds to NodeType's reference label the target NodeLabel" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VOBXphuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.35"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VOBXpxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.3"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOBXphuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.40"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.45 //@changes.25" name="ADD_EdgeType_(labels)_TGT_EdgeLabel" priority="1" recognitionRName="RR: ADD_EdgeType_(labels)_TGT_EdgeLabel" refinementLevel="5" editRName="ADD_EdgeType_(labels)_TGT_EdgeLabel" overlayings="//@unusedChangeSets.1" description="Adds to EdgeType's reference labels the target EdgeLabel" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VOobpxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.31"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOobphuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.59"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.3" name="REMOVE_UniqueConstraint_(properties)_TGT_Property" priority="1" recognitionRName="RR: REMOVE_UniqueConstraint_(properties)_TGT_Property" refinementLevel="3" editRName="REMOVE_UniqueConstraint_(properties)_TGT_Property" description="Removes UniqueConstraint's reference properties the target Property" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPzgVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.17/@properties.3"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPzgVhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.17/@constraints.0"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPzgVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.20/@properties.3"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.26 //@changes.61 //@changes.27" name="CREATE_EdgeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_EdgeLabel_IN_PropertyGraph_(items)" description="Creates one EdgeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQkVVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQkVXBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.33"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQkVVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.11 //@changes.36" name="ADD_NodeLabel_(nodes)_TGT_NodeType" priority="1" recognitionRName="RR: ADD_NodeLabel_(nodes)_TGT_NodeType" refinementLevel="5" editRName="ADD_NodeLabel_(nodes)_TGT_NodeType" overlayings="//@unusedChangeSets.13" description="Adds to NodeLabel's reference nodes the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VN6p9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VN6p9xuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.47"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.33 //@changes.47" name="ADD_NodeType_(incoming)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(incoming)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(incoming)_TGT_EdgeType" overlayings="//@unusedChangeSets.6" description="Adds to NodeType's reference incoming the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPaexhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.41"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPaexxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.59"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.69" name="SET_ATTRIBUTE_Label_Name" priority="1" recognitionRName="RR: SET_ATTRIBUTE_Label_Name" refinementLevel="2" editRName="SET_ATTRIBUTE_Label_Name" description="Sets Label Name" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQKFpRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#//@items.17"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQKFpRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.20"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.22 //@changes.58 //@changes.23" name="CREATE_EdgeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_EdgeLabel_IN_PropertyGraph_(items)" description="Creates one EdgeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQkVVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloom.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQkVXBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#//@items.31"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQkVVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="bloomv2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <unusedChangeSets changes="//@changes.51 //@changes.75" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@changeSets.16" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.25 //@changes.45" name="ADD_EdgeLabel_(edges)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_EdgeLabel_(edges)_TGT_EdgeType" refinementLevel="5" editRName="ADD_EdgeLabel_(edges)_TGT_EdgeType" overlayings="//@changeSets.27" description="Adds to EdgeLabel's reference edges the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.76 //@changes.46" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@changeSets.25" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.50 //@changes.24" name="ADD_EdgeType_(labels)_TGT_EdgeLabel" priority="1" recognitionRName="RR: ADD_EdgeType_(labels)_TGT_EdgeLabel" refinementLevel="5" editRName="ADD_EdgeType_(labels)_TGT_EdgeLabel" overlayings="//@changeSets.15" description="Adds to EdgeType's reference labels the target EdgeLabel" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.21" name="CREATE_StringType" priority="1" recognitionRName="RR: CREATE_StringType" refinementLevel="2" editRName="CREATE_StringType" supersets="//@changeSets.4" description="Creates one StringType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.52 //@changes.32" name="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" overlayings="//@changeSets.21" description="Sets EdgeType's reference tgt the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.47 //@changes.33" name="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" overlayings="//@changeSets.31" description="Sets EdgeType's reference tgt the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.41 //@changes.37" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@changeSets.20" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.42 //@changes.74" name="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" overlayings="//@changeSets.19" description="Sets EdgeType's reference tgt the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.40 //@changes.28" name="ADD_EdgeType_(labels)_TGT_EdgeLabel" priority="1" recognitionRName="RR: ADD_EdgeType_(labels)_TGT_EdgeLabel" refinementLevel="5" editRName="ADD_EdgeType_(labels)_TGT_EdgeLabel" overlayings="//@changeSets.22" description="Adds to EdgeType's reference labels the target EdgeLabel" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.14" name="CREATE_StringType" priority="1" recognitionRName="RR: CREATE_StringType" refinementLevel="2" editRName="CREATE_StringType" supersets="//@changeSets.8" description="Creates one StringType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.31 //@changes.20" name="ADD_NodeType_(label)_TGT_NodeLabel" priority="1" recognitionRName="RR: ADD_NodeType_(label)_TGT_NodeLabel" refinementLevel="5" editRName="ADD_NodeType_(label)_TGT_NodeLabel" overlayings="//@changeSets.24" description="Adds to NodeType's reference label the target NodeLabel" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.7 //@changes.80" name="ADD_NodeLabel_(nodes)_TGT_NodeType" priority="1" recognitionRName="RR: ADD_NodeLabel_(nodes)_TGT_NodeType" refinementLevel="5" editRName="ADD_NodeLabel_(nodes)_TGT_NodeType" overlayings="//@changeSets.26" description="Adds to NodeLabel's reference nodes the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.36 //@changes.11" name="ADD_NodeType_(label)_TGT_NodeLabel" priority="1" recognitionRName="RR: ADD_NodeType_(label)_TGT_NodeLabel" refinementLevel="5" editRName="ADD_NodeType_(label)_TGT_NodeLabel" overlayings="//@changeSets.30" description="Adds to NodeType's reference label the target NodeLabel" numberOfParams="2"/>
+  <matching uriA="platform:/resource/ERConference/bloom/bloom.graph" uriB="platform:/resource/ERConference/bloom/bloomv2.graph">
+    <correspondences containmentCorrespondences="//@matching/@correspondences.1 //@matching/@correspondences.13 //@matching/@correspondences.16 //@matching/@correspondences.21 //@matching/@correspondences.32 //@matching/@correspondences.45 //@matching/@correspondences.54 //@matching/@correspondences.67 //@matching/@correspondences.76 //@matching/@correspondences.85 //@matching/@correspondences.92 //@matching/@correspondences.95 //@matching/@correspondences.104 //@matching/@correspondences.109 //@matching/@correspondences.112 //@matching/@correspondences.121 //@matching/@correspondences.124 //@matching/@correspondences.129 //@matching/@correspondences.140 //@matching/@correspondences.141 //@matching/@correspondences.142 //@matching/@correspondences.143 //@matching/@correspondences.144 //@matching/@correspondences.145 //@matching/@correspondences.146 //@matching/@correspondences.147 //@matching/@correspondences.148 //@matching/@correspondences.149 //@matching/@correspondences.150 //@matching/@correspondences.151 //@matching/@correspondences.152 //@matching/@correspondences.153 //@matching/@correspondences.154 //@matching/@correspondences.155 //@matching/@correspondences.156 //@matching/@correspondences.157 //@matching/@correspondences.158 //@matching/@correspondences.159 //@matching/@correspondences.160 //@matching/@correspondences.161 //@matching/@correspondences.162 //@matching/@correspondences.163 //@matching/@correspondences.164 //@matching/@correspondences.165 //@matching/@correspondences.166 //@matching/@correspondences.167 //@matching/@correspondences.168 //@matching/@correspondences.169 //@matching/@correspondences.170 //@matching/@correspondences.171 //@matching/@correspondences.172 //@matching/@correspondences.173 //@matching/@correspondences.174 //@matching/@correspondences.175 //@matching/@correspondences.176 //@matching/@correspondences.177 //@matching/@correspondences.178 //@matching/@correspondences.179 //@matching/@correspondences.180 //@matching/@correspondences.181 //@matching/@correspondences.182 //@matching/@correspondences.183 //@matching/@correspondences.184 //@matching/@correspondences.185 //@matching/@correspondences.186 //@matching/@correspondences.187 //@matching/@correspondences.188 //@matching/@correspondences.189 //@matching/@correspondences.190 //@matching/@correspondences.191 //@matching/@correspondences.192 //@matching/@correspondences.193">
+      <matchedA href="bloom.graph#/"/>
+      <matchedB href="bloomv2.graph#/"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.2 //@matching/@correspondences.4 //@matching/@correspondences.6 //@matching/@correspondences.8 //@matching/@correspondences.11">
+      <matchedA href="bloom.graph#//@items.17"/>
+      <matchedB href="bloomv2.graph#//@items.20"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.3">
+      <matchedA href="bloom.graph#//@items.17/@properties.4"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.4"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.2">
+      <matchedA href="bloom.graph#//@items.17/@properties.4/@value"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.4/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.5">
+      <matchedA href="bloom.graph#//@items.17/@properties.3"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.4">
+      <matchedA href="bloom.graph#//@items.17/@properties.3/@value"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.7">
+      <matchedA href="bloom.graph#//@items.17/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.6">
+      <matchedA href="bloom.graph#//@items.17/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.9">
+      <matchedA href="bloom.graph#//@items.17/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.8" containmentCorrespondences="//@matching/@correspondences.10">
+      <matchedA href="bloom.graph#//@items.17/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.9">
+      <matchedA href="bloom.graph#//@items.17/@properties.1/@value/@type"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.1/@value/@type"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.12">
+      <matchedA href="bloom.graph#//@items.17/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.11">
+      <matchedA href="bloom.graph#//@items.17/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.20/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.14">
+      <matchedA href="bloom.graph#//@items.30"/>
+      <matchedB href="bloomv2.graph#//@items.35"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.13" containmentCorrespondences="//@matching/@correspondences.15">
+      <matchedA href="bloom.graph#//@items.30/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.35/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.14">
+      <matchedA href="bloom.graph#//@items.30/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.35/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.17 //@matching/@correspondences.19">
+      <matchedA href="bloom.graph#//@items.16"/>
+      <matchedB href="bloomv2.graph#//@items.19"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.16" containmentCorrespondences="//@matching/@correspondences.18">
+      <matchedA href="bloom.graph#//@items.16/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.19/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17">
+      <matchedA href="bloom.graph#//@items.16/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.19/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.16" containmentCorrespondences="//@matching/@correspondences.20">
+      <matchedA href="bloom.graph#//@items.16/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.19/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.19">
+      <matchedA href="bloom.graph#//@items.16/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.19/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.22 //@matching/@correspondences.24 //@matching/@correspondences.26 //@matching/@correspondences.28 //@matching/@correspondences.30">
+      <matchedA href="bloom.graph#//@items.12"/>
+      <matchedB href="bloomv2.graph#//@items.15"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.21" containmentCorrespondences="//@matching/@correspondences.23">
+      <matchedA href="bloom.graph#//@items.12/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.15/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.22">
+      <matchedA href="bloom.graph#//@items.12/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.15/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.21" containmentCorrespondences="//@matching/@correspondences.25">
+      <matchedA href="bloom.graph#//@items.12/@properties.4"/>
+      <matchedB href="bloomv2.graph#//@items.15/@properties.4"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.24">
+      <matchedA href="bloom.graph#//@items.12/@properties.4/@value"/>
+      <matchedB href="bloomv2.graph#//@items.15/@properties.4/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.21" containmentCorrespondences="//@matching/@correspondences.27">
+      <matchedA href="bloom.graph#//@items.12/@properties.3"/>
+      <matchedB href="bloomv2.graph#//@items.15/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.26">
+      <matchedA href="bloom.graph#//@items.12/@properties.3/@value"/>
+      <matchedB href="bloomv2.graph#//@items.15/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.21" containmentCorrespondences="//@matching/@correspondences.29">
+      <matchedA href="bloom.graph#//@items.12/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.15/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.28">
+      <matchedA href="bloom.graph#//@items.12/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.15/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.21" containmentCorrespondences="//@matching/@correspondences.31">
+      <matchedA href="bloom.graph#//@items.12/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.15/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.30">
+      <matchedA href="bloom.graph#//@items.12/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.15/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.33 //@matching/@correspondences.35 //@matching/@correspondences.37 //@matching/@correspondences.39 //@matching/@correspondences.41 //@matching/@correspondences.43">
+      <matchedA href="bloom.graph#//@items.11"/>
+      <matchedB href="bloomv2.graph#//@items.14"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.32" containmentCorrespondences="//@matching/@correspondences.34">
+      <matchedA href="bloom.graph#//@items.11/@properties.5"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.5"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.33">
+      <matchedA href="bloom.graph#//@items.11/@properties.5/@value"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.5/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.32" containmentCorrespondences="//@matching/@correspondences.36">
+      <matchedA href="bloom.graph#//@items.11/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.35">
+      <matchedA href="bloom.graph#//@items.11/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.32" containmentCorrespondences="//@matching/@correspondences.38">
+      <matchedA href="bloom.graph#//@items.11/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.37">
+      <matchedA href="bloom.graph#//@items.11/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.32" containmentCorrespondences="//@matching/@correspondences.40">
+      <matchedA href="bloom.graph#//@items.11/@properties.4"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.4"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.39">
+      <matchedA href="bloom.graph#//@items.11/@properties.4/@value"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.4/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.32" containmentCorrespondences="//@matching/@correspondences.42">
+      <matchedA href="bloom.graph#//@items.11/@properties.3"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.41">
+      <matchedA href="bloom.graph#//@items.11/@properties.3/@value"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.32" containmentCorrespondences="//@matching/@correspondences.44">
+      <matchedA href="bloom.graph#//@items.11/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.43">
+      <matchedA href="bloom.graph#//@items.11/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.14/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.46 //@matching/@correspondences.48 //@matching/@correspondences.50 //@matching/@correspondences.52">
+      <matchedA href="bloom.graph#//@items.10"/>
+      <matchedB href="bloomv2.graph#//@items.13"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.45" containmentCorrespondences="//@matching/@correspondences.47">
+      <matchedA href="bloom.graph#//@items.10/@properties.3"/>
+      <matchedB href="bloomv2.graph#//@items.13/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.46">
+      <matchedA href="bloom.graph#//@items.10/@properties.3/@value"/>
+      <matchedB href="bloomv2.graph#//@items.13/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.45" containmentCorrespondences="//@matching/@correspondences.49">
+      <matchedA href="bloom.graph#//@items.10/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.13/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.48">
+      <matchedA href="bloom.graph#//@items.10/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.13/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.45" containmentCorrespondences="//@matching/@correspondences.51">
+      <matchedA href="bloom.graph#//@items.10/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.13/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.50">
+      <matchedA href="bloom.graph#//@items.10/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.13/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.45" containmentCorrespondences="//@matching/@correspondences.53">
+      <matchedA href="bloom.graph#//@items.10/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.13/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.52">
+      <matchedA href="bloom.graph#//@items.10/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.13/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.55 //@matching/@correspondences.57 //@matching/@correspondences.59 //@matching/@correspondences.61 //@matching/@correspondences.63 //@matching/@correspondences.65">
+      <matchedA href="bloom.graph#//@items.7"/>
+      <matchedB href="bloomv2.graph#//@items.10"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.54" containmentCorrespondences="//@matching/@correspondences.56">
+      <matchedA href="bloom.graph#//@items.7/@properties.5"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.5"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.55">
+      <matchedA href="bloom.graph#//@items.7/@properties.5/@value"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.5/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.54" containmentCorrespondences="//@matching/@correspondences.58">
+      <matchedA href="bloom.graph#//@items.7/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.57">
+      <matchedA href="bloom.graph#//@items.7/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.54" containmentCorrespondences="//@matching/@correspondences.60">
+      <matchedA href="bloom.graph#//@items.7/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.59">
+      <matchedA href="bloom.graph#//@items.7/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.54" containmentCorrespondences="//@matching/@correspondences.62">
+      <matchedA href="bloom.graph#//@items.7/@properties.4"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.4"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.61">
+      <matchedA href="bloom.graph#//@items.7/@properties.4/@value"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.4/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.54" containmentCorrespondences="//@matching/@correspondences.64">
+      <matchedA href="bloom.graph#//@items.7/@properties.3"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.63">
+      <matchedA href="bloom.graph#//@items.7/@properties.3/@value"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.54" containmentCorrespondences="//@matching/@correspondences.66">
+      <matchedA href="bloom.graph#//@items.7/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.65">
+      <matchedA href="bloom.graph#//@items.7/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.10/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.68 //@matching/@correspondences.70 //@matching/@correspondences.72 //@matching/@correspondences.74">
+      <matchedA href="bloom.graph#//@items.6"/>
+      <matchedB href="bloomv2.graph#//@items.9"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.67" containmentCorrespondences="//@matching/@correspondences.69">
+      <matchedA href="bloom.graph#//@items.6/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.9/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.68">
+      <matchedA href="bloom.graph#//@items.6/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.9/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.67" containmentCorrespondences="//@matching/@correspondences.71">
+      <matchedA href="bloom.graph#//@items.6/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.9/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.70">
+      <matchedA href="bloom.graph#//@items.6/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.9/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.67" containmentCorrespondences="//@matching/@correspondences.73">
+      <matchedA href="bloom.graph#//@items.6/@properties.3"/>
+      <matchedB href="bloomv2.graph#//@items.9/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.72">
+      <matchedA href="bloom.graph#//@items.6/@properties.3/@value"/>
+      <matchedB href="bloomv2.graph#//@items.9/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.67" containmentCorrespondences="//@matching/@correspondences.75">
+      <matchedA href="bloom.graph#//@items.6/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.9/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.74">
+      <matchedA href="bloom.graph#//@items.6/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.9/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.77 //@matching/@correspondences.79 //@matching/@correspondences.81 //@matching/@correspondences.83">
+      <matchedA href="bloom.graph#//@items.5"/>
+      <matchedB href="bloomv2.graph#//@items.8"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.76" containmentCorrespondences="//@matching/@correspondences.78">
+      <matchedA href="bloom.graph#//@items.5/@properties.3"/>
+      <matchedB href="bloomv2.graph#//@items.8/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.77">
+      <matchedA href="bloom.graph#//@items.5/@properties.3/@value"/>
+      <matchedB href="bloomv2.graph#//@items.8/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.76" containmentCorrespondences="//@matching/@correspondences.80">
+      <matchedA href="bloom.graph#//@items.5/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.8/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.79">
+      <matchedA href="bloom.graph#//@items.5/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.8/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.76" containmentCorrespondences="//@matching/@correspondences.82">
+      <matchedA href="bloom.graph#//@items.5/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.8/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.81">
+      <matchedA href="bloom.graph#//@items.5/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.8/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.76" containmentCorrespondences="//@matching/@correspondences.84">
+      <matchedA href="bloom.graph#//@items.5/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.8/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.83">
+      <matchedA href="bloom.graph#//@items.5/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.8/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.86 //@matching/@correspondences.90">
+      <matchedA href="bloom.graph#//@items.2"/>
+      <matchedB href="bloomv2.graph#//@items.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.85" containmentCorrespondences="//@matching/@correspondences.87">
+      <matchedA href="bloom.graph#//@items.2/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.0/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.86">
+      <matchedA href="bloom.graph#//@items.2/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.0/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containmentCorrespondences="//@matching/@correspondences.89">
+      <matchedA href="bloom.graph#//@items.2/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.3/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.88">
+      <matchedA href="bloom.graph#//@items.2/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.3/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.85" containmentCorrespondences="//@matching/@correspondences.91">
+      <matchedA href="bloom.graph#//@items.2/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.0/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.90">
+      <matchedA href="bloom.graph#//@items.2/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.0/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.93">
+      <matchedA href="bloom.graph#//@items.15"/>
+      <matchedB href="bloomv2.graph#//@items.18"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.92" containmentCorrespondences="//@matching/@correspondences.94">
+      <matchedA href="bloom.graph#//@items.15/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.18/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.93">
+      <matchedA href="bloom.graph#//@items.15/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.18/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.96 //@matching/@correspondences.98 //@matching/@correspondences.100 //@matching/@correspondences.102">
+      <matchedA href="bloom.graph#//@items.14"/>
+      <matchedB href="bloomv2.graph#//@items.17"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.95" containmentCorrespondences="//@matching/@correspondences.97">
+      <matchedA href="bloom.graph#//@items.14/@properties.3"/>
+      <matchedB href="bloomv2.graph#//@items.17/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.96">
+      <matchedA href="bloom.graph#//@items.14/@properties.3/@value"/>
+      <matchedB href="bloomv2.graph#//@items.17/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.95" containmentCorrespondences="//@matching/@correspondences.99">
+      <matchedA href="bloom.graph#//@items.14/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.17/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.98">
+      <matchedA href="bloom.graph#//@items.14/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.17/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.95" containmentCorrespondences="//@matching/@correspondences.101">
+      <matchedA href="bloom.graph#//@items.14/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.17/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.100">
+      <matchedA href="bloom.graph#//@items.14/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.17/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.95" containmentCorrespondences="//@matching/@correspondences.103">
+      <matchedA href="bloom.graph#//@items.14/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.17/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.102">
+      <matchedA href="bloom.graph#//@items.14/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.17/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.105 //@matching/@correspondences.107">
+      <matchedA href="bloom.graph#//@items.13"/>
+      <matchedB href="bloomv2.graph#//@items.16"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.104" containmentCorrespondences="//@matching/@correspondences.106">
+      <matchedA href="bloom.graph#//@items.13/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.16/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.105">
+      <matchedA href="bloom.graph#//@items.13/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.16/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.104" containmentCorrespondences="//@matching/@correspondences.108">
+      <matchedA href="bloom.graph#//@items.13/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.16/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.107">
+      <matchedA href="bloom.graph#//@items.13/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.16/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.110">
+      <matchedA href="bloom.graph#//@items.9"/>
+      <matchedB href="bloomv2.graph#//@items.12"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.109" containmentCorrespondences="//@matching/@correspondences.111">
+      <matchedA href="bloom.graph#//@items.9/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.12/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.110">
+      <matchedA href="bloom.graph#//@items.9/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.12/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.113 //@matching/@correspondences.115 //@matching/@correspondences.117 //@matching/@correspondences.119">
+      <matchedA href="bloom.graph#//@items.8"/>
+      <matchedB href="bloomv2.graph#//@items.11"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.112" containmentCorrespondences="//@matching/@correspondences.114">
+      <matchedA href="bloom.graph#//@items.8/@properties.3"/>
+      <matchedB href="bloomv2.graph#//@items.11/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.113">
+      <matchedA href="bloom.graph#//@items.8/@properties.3/@value"/>
+      <matchedB href="bloomv2.graph#//@items.11/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.112" containmentCorrespondences="//@matching/@correspondences.116">
+      <matchedA href="bloom.graph#//@items.8/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.11/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.115">
+      <matchedA href="bloom.graph#//@items.8/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.11/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.112" containmentCorrespondences="//@matching/@correspondences.118">
+      <matchedA href="bloom.graph#//@items.8/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.11/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.117">
+      <matchedA href="bloom.graph#//@items.8/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.11/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.112" containmentCorrespondences="//@matching/@correspondences.120">
+      <matchedA href="bloom.graph#//@items.8/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.11/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.119">
+      <matchedA href="bloom.graph#//@items.8/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.11/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.122">
+      <matchedA href="bloom.graph#//@items.4"/>
+      <matchedB href="bloomv2.graph#//@items.7"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.121" containmentCorrespondences="//@matching/@correspondences.123">
+      <matchedA href="bloom.graph#//@items.4/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.7/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.122">
+      <matchedA href="bloom.graph#//@items.4/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.7/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.125 //@matching/@correspondences.127">
+      <matchedA href="bloom.graph#//@items.3"/>
+      <matchedB href="bloomv2.graph#//@items.6"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.124" containmentCorrespondences="//@matching/@correspondences.126">
+      <matchedA href="bloom.graph#//@items.3/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.6/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.125">
+      <matchedA href="bloom.graph#//@items.3/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.6/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.124" containmentCorrespondences="//@matching/@correspondences.128">
+      <matchedA href="bloom.graph#//@items.3/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.6/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.127">
+      <matchedA href="bloom.graph#//@items.3/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.6/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.136 //@matching/@correspondences.138">
+      <matchedA href="bloom.graph#//@items.1"/>
+      <matchedB href="bloomv2.graph#//@items.2"/>
+    </correspondences>
+    <correspondences containmentCorrespondences="//@matching/@correspondences.131">
+      <matchedA href="bloom.graph#//@items.1/@properties.4"/>
+      <matchedB href="bloomv2.graph#//@items.5/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.130">
+      <matchedA href="bloom.graph#//@items.1/@properties.4/@value"/>
+      <matchedB href="bloomv2.graph#//@items.5/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containmentCorrespondences="//@matching/@correspondences.133">
+      <matchedA href="bloom.graph#//@items.1/@properties.3"/>
+      <matchedB href="bloomv2.graph#//@items.5/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.132">
+      <matchedA href="bloom.graph#//@items.1/@properties.3/@value"/>
+      <matchedB href="bloomv2.graph#//@items.5/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containmentCorrespondences="//@matching/@correspondences.135">
+      <matchedA href="bloom.graph#//@items.1/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.5/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.134">
+      <matchedA href="bloom.graph#//@items.1/@properties.2/@value"/>
+      <matchedB href="bloomv2.graph#//@items.5/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.129" containmentCorrespondences="//@matching/@correspondences.137">
+      <matchedA href="bloom.graph#//@items.1/@properties.1"/>
+      <matchedB href="bloomv2.graph#//@items.2/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.136">
+      <matchedA href="bloom.graph#//@items.1/@properties.1/@value"/>
+      <matchedB href="bloomv2.graph#//@items.2/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.129" containmentCorrespondences="//@matching/@correspondences.139">
+      <matchedA href="bloom.graph#//@items.1/@properties.0"/>
+      <matchedB href="bloomv2.graph#//@items.2/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.138">
+      <matchedA href="bloom.graph#//@items.1/@properties.0/@value"/>
+      <matchedB href="bloomv2.graph#//@items.2/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.18"/>
+      <matchedB href="bloomv2.graph#//@items.21"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.19"/>
+      <matchedB href="bloomv2.graph#//@items.22"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.20"/>
+      <matchedB href="bloomv2.graph#//@items.23"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.21"/>
+      <matchedB href="bloomv2.graph#//@items.24"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.22"/>
+      <matchedB href="bloomv2.graph#//@items.25"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.23"/>
+      <matchedB href="bloomv2.graph#//@items.26"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.24"/>
+      <matchedB href="bloomv2.graph#//@items.27"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.25"/>
+      <matchedB href="bloomv2.graph#//@items.28"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.26"/>
+      <matchedB href="bloomv2.graph#//@items.29"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.27"/>
+      <matchedB href="bloomv2.graph#//@items.30"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.28"/>
+      <matchedB href="bloomv2.graph#//@items.32"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.29"/>
+      <matchedB href="bloomv2.graph#//@items.34"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.31"/>
+      <matchedB href="bloomv2.graph#//@items.36"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.32"/>
+      <matchedB href="bloomv2.graph#//@items.37"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.0"/>
+      <matchedB href="bloomv2.graph#//@items.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.70"/>
+      <matchedB href="bloomv2.graph#//@items.80"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.54"/>
+      <matchedB href="bloomv2.graph#//@items.63"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.68"/>
+      <matchedB href="bloomv2.graph#//@items.78"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.65"/>
+      <matchedB href="bloomv2.graph#//@items.75"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.53"/>
+      <matchedB href="bloomv2.graph#//@items.62"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.33"/>
+      <matchedB href="bloomv2.graph#//@items.38"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.52"/>
+      <matchedB href="bloomv2.graph#//@items.61"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.69"/>
+      <matchedB href="bloomv2.graph#//@items.79"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.63"/>
+      <matchedB href="bloomv2.graph#//@items.73"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.48"/>
+      <matchedB href="bloomv2.graph#//@items.55"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.62"/>
+      <matchedB href="bloomv2.graph#//@items.72"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.59"/>
+      <matchedB href="bloomv2.graph#//@items.69"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.47"/>
+      <matchedB href="bloomv2.graph#//@items.54"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.56"/>
+      <matchedB href="bloomv2.graph#//@items.66"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.45"/>
+      <matchedB href="bloomv2.graph#//@items.52"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.67"/>
+      <matchedB href="bloomv2.graph#//@items.77"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.58"/>
+      <matchedB href="bloomv2.graph#//@items.68"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.41"/>
+      <matchedB href="bloomv2.graph#//@items.48"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.61"/>
+      <matchedB href="bloomv2.graph#//@items.71"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.51"/>
+      <matchedB href="bloomv2.graph#//@items.60"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.57"/>
+      <matchedB href="bloomv2.graph#//@items.67"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.50"/>
+      <matchedB href="bloomv2.graph#//@items.57"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.60"/>
+      <matchedB href="bloomv2.graph#//@items.70"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.64"/>
+      <matchedB href="bloomv2.graph#//@items.74"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.40"/>
+      <matchedB href="bloomv2.graph#//@items.46"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.36"/>
+      <matchedB href="bloomv2.graph#//@items.42"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.43"/>
+      <matchedB href="bloomv2.graph#//@items.50"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.55"/>
+      <matchedB href="bloomv2.graph#//@items.65"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.66"/>
+      <matchedB href="bloomv2.graph#//@items.76"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.71"/>
+      <matchedB href="bloomv2.graph#//@items.81"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.72"/>
+      <matchedB href="bloomv2.graph#//@items.82"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.73"/>
+      <matchedB href="bloomv2.graph#//@items.83"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.34"/>
+      <matchedB href="bloomv2.graph#//@items.39"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.37"/>
+      <matchedB href="bloomv2.graph#//@items.43"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.38"/>
+      <matchedB href="bloomv2.graph#//@items.44"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.39"/>
+      <matchedB href="bloomv2.graph#//@items.45"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.42"/>
+      <matchedB href="bloomv2.graph#//@items.49"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.44"/>
+      <matchedB href="bloomv2.graph#//@items.51"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="bloom.graph#//@items.46"/>
+      <matchedB href="bloomv2.graph#//@items.53"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="bloom.graph#//@items.13/@properties.2"/>
+      <matchedB href="bloomv2.graph#//@items.16/@properties.2"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="bloom.graph#//@items.35"/>
+      <matchedB href="bloomv2.graph#//@items.40"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="bloom.graph#//@items.49"/>
+      <matchedB href="bloomv2.graph#//@items.56"/>
+    </correspondences>
+    <unmatchedA href="bloom.graph#//@items.13/@properties.2/@value"/>
+    <unmatchedA href="bloom.graph#//@items.17/@constraints.0"/>
+    <unmatchedB href="bloomv2.graph#//@items.3"/>
+    <unmatchedB href="bloomv2.graph#//@items.4"/>
+    <unmatchedB href="bloomv2.graph#//@items.4/@properties.0"/>
+    <unmatchedB href="bloomv2.graph#//@items.4/@properties.0/@value"/>
+    <unmatchedB href="bloomv2.graph#//@items.5"/>
+    <unmatchedB href="bloomv2.graph#//@items.16/@properties.2/@value"/>
+    <unmatchedB href="bloomv2.graph#//@items.31"/>
+    <unmatchedB href="bloomv2.graph#//@items.33"/>
+    <unmatchedB href="bloomv2.graph#//@items.41"/>
+    <unmatchedB href="bloomv2.graph#//@items.47"/>
+    <unmatchedB href="bloomv2.graph#//@items.58"/>
+    <unmatchedB href="bloomv2.graph#//@items.59"/>
+    <unmatchedB href="bloomv2.graph#//@items.64"/>
+    <unmatchedB href="bloomv2.graph#//@items.82"/>
+  </matching>
+</symmetric:SymmetricDifference>

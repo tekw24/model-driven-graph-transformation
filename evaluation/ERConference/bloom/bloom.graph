@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph:PropertyGraph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:graph="http://www.thm.de/graph" name="MyGraph">
+  <items xsi:type="graph:NodeLabel" name="Flagged" nodes="//@items.50"/>
+  <items xsi:type="graph:NodeLabel" name="AccountHolder" nodes="//@items.36 //@items.50">
+    <properties name="UniqueId">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="birthDate">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="firstName">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="fullName">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="lastName">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="PhoneNumber" nodes="//@items.35">
+    <properties name="phone">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="provider">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="touched">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="FinancialInstitute" nodes="//@items.46">
+    <properties name="website">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="SSN" nodes="//@items.37">
+    <properties name="ssn">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="BankAccount" nodes="//@items.33">
+    <properties name="accountNumber">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="balance">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+    <properties name="lastReceived">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <properties name="lastSend">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="UnsecuredLoan" nodes="//@items.39">
+    <properties name="accountNumber">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="balance">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+    <properties name="loanAmount">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+    <properties name="APR">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="CreditCard" nodes="//@items.38">
+    <properties name="balance">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+    <properties name="latePayments">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+    <properties name="expirationDate">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="securityCode">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="accountNumber">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="limit">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Address" nodes="//@items.34">
+    <properties name="state">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="city">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="zip">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="streetAddress">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="IP" nodes="//@items.43">
+    <properties name="ip">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Purchase" nodes="//@items.41">
+    <properties name="purchaseCode">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="time">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <properties name="date">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="amount">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="BankCard" nodes="//@items.42">
+    <properties name="balance">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+    <properties name="latePayments">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+    <properties name="expirationDate">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="securityCode">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="accountNumber">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="limit">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Login" nodes="//@items.45">
+    <properties name="lastName">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="mail">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="startDate">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <properties name="userid">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="firstName">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Shop" nodes="//@items.48">
+    <properties name="business">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="shopID">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="DeliveryAddress" nodes="//@items.44">
+    <properties name="city">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="state">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="streetAddress">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="zip">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="State" nodes="//@items.47">
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="MoneyTransfer" nodes="//@items.40">
+    <properties name="transactionDate">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="amount">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="_Bloom_Perspective_" nodes="//@items.49">
+    <properties name="version">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="roles">
+      <value xsi:type="graph:ListType">
+        <type xsi:type="graph:StringType" type="STRING"/>
+      </value>
+    </properties>
+    <properties name="data">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="id">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <constraints xsi:type="graph:UniqueConstraint" name="constraint_2876b1c0" properties="//@items.17/@properties.3"/>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="DELIVERED_AT" edges="//@items.62"/>
+  <items xsi:type="graph:EdgeLabel" name="FOR_SHOP" edges="//@items.63"/>
+  <items xsi:type="graph:EdgeLabel" name="FROM" edges="//@items.57"/>
+  <items xsi:type="graph:EdgeLabel" name="FROM_IP" edges="//@items.59"/>
+  <items xsi:type="graph:EdgeLabel" name="HAS_ADDRESS" edges="//@items.56 //@items.72"/>
+  <items xsi:type="graph:EdgeLabel" name="HAS_BANKACCOUNT" edges="//@items.52 //@items.68"/>
+  <items xsi:type="graph:EdgeLabel" name="HAS_CREDITCARD" edges="//@items.51 //@items.67"/>
+  <items xsi:type="graph:EdgeLabel" name="HAS_PHONENUMBER" edges="//@items.55 //@items.71 //@items.73"/>
+  <items xsi:type="graph:EdgeLabel" name="HAS_SSN" edges="//@items.54 //@items.70"/>
+  <items xsi:type="graph:EdgeLabel" name="HAS_UNSECUREDLOAN" edges="//@items.53 //@items.69"/>
+  <items xsi:type="graph:EdgeLabel" name="LOCATED_IN" edges="//@items.58"/>
+  <items xsi:type="graph:EdgeLabel" name="SEND" edges="//@items.64 //@items.65"/>
+  <items xsi:type="graph:EdgeLabel" name="WITH" edges="//@items.66">
+    <properties name="lastUsed">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="WITH_CARD" edges="//@items.60"/>
+  <items xsi:type="graph:EdgeLabel" name="WITH_LOGIN" edges="//@items.61"/>
+  <items xsi:type="graph:NodeType" label="//@items.5" outgoing="//@items.57 //@items.64" incoming="//@items.52 //@items.65 //@items.68"/>
+  <items xsi:type="graph:NodeType" label="//@items.8" incoming="//@items.56 //@items.72"/>
+  <items xsi:type="graph:NodeType" label="//@items.2" outgoing="//@items.73" incoming="//@items.55 //@items.66 //@items.71"/>
+  <items xsi:type="graph:NodeType" label="//@items.1" outgoing="//@items.51 //@items.52 //@items.53 //@items.54 //@items.55 //@items.56"/>
+  <items xsi:type="graph:NodeType" label="//@items.4" incoming="//@items.54 //@items.70"/>
+  <items xsi:type="graph:NodeType" label="//@items.7" incoming="//@items.51 //@items.67"/>
+  <items xsi:type="graph:NodeType" label="//@items.6" incoming="//@items.53 //@items.69 //@items.73"/>
+  <items xsi:type="graph:NodeType" label="//@items.16" outgoing="//@items.65 //@items.66" incoming="//@items.64"/>
+  <items xsi:type="graph:NodeType" label="//@items.10" outgoing="//@items.59 //@items.60 //@items.61 //@items.62"/>
+  <items xsi:type="graph:NodeType" label="//@items.11" incoming="//@items.60"/>
+  <items xsi:type="graph:NodeType" label="//@items.9" outgoing="//@items.58" incoming="//@items.59"/>
+  <items xsi:type="graph:NodeType" label="//@items.14" incoming="//@items.62"/>
+  <items xsi:type="graph:NodeType" label="//@items.12" outgoing="//@items.63" incoming="//@items.61"/>
+  <items xsi:type="graph:NodeType" label="//@items.3" incoming="//@items.57"/>
+  <items xsi:type="graph:NodeType" label="//@items.15" incoming="//@items.58"/>
+  <items xsi:type="graph:NodeType" label="//@items.13" incoming="//@items.63"/>
+  <items xsi:type="graph:NodeType" label="//@items.17"/>
+  <items xsi:type="graph:NodeType" label="//@items.1 //@items.0" outgoing="//@items.67 //@items.68 //@items.69 //@items.70 //@items.71 //@items.72"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.24" src="//@items.36" tgt="//@items.38"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.23" src="//@items.36" tgt="//@items.33"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.27" src="//@items.36" tgt="//@items.39"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.26" src="//@items.36" tgt="//@items.37"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.25" src="//@items.36" tgt="//@items.35"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.22" src="//@items.36" tgt="//@items.34"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.20" src="//@items.33" tgt="//@items.46"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.28" src="//@items.43" tgt="//@items.47"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.21" src="//@items.41" tgt="//@items.43"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.31" src="//@items.41" tgt="//@items.42"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.32" src="//@items.41" tgt="//@items.45"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.18" src="//@items.41" tgt="//@items.44"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.19" src="//@items.45" tgt="//@items.48"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.29" src="//@items.33" tgt="//@items.40"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.29" src="//@items.40" tgt="//@items.33"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.30" src="//@items.40" tgt="//@items.35"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.24" src="//@items.50" tgt="//@items.38"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.23" src="//@items.50" tgt="//@items.33"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.27" src="//@items.50" tgt="//@items.39"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.26" src="//@items.50" tgt="//@items.37"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.25" src="//@items.50" tgt="//@items.35"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.22" src="//@items.50" tgt="//@items.34"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.25" src="//@items.35" tgt="//@items.39"/>
+</graph:PropertyGraph>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph:PropertyGraph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:graph="http://www.thm.de/graph" name="MyGraph">
+  <items xsi:type="graph:NodeLabel" name="Professor" nodes="//@items.5">
+    <properties name="employeeid">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <constraints xsi:type="graph:KeyConstraint" name="professor_employeeid_key" properties="//@items.0/@properties.0"/>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Department" nodes="//@items.9">
+    <properties name="did">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <properties name="dname">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Lecture" nodes="//@items.8">
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="creditpoints">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Person" nodes="//@items.5 //@items.6">
+    <properties name="birthdate">
+      <value xsi:type="graph:TemporalTypes" type="DATE"/>
+    </properties>
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <constraints xsi:type="graph:PropertyExistenceConstraint" name="person_name_exists" properties="//@items.3/@properties.1"/>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="EMPLOYED_AT" edges="//@items.14"/>
+  <items xsi:type="graph:NodeType" label="//@items.3 //@items.0" outgoing="//@items.17 //@items.18 //@items.14"/>
+  <items xsi:type="graph:NodeType" label="//@items.3 //@items.10" outgoing="//@items.19 //@items.20"/>
+  <items xsi:type="graph:NodeType" label="//@items.11" incoming="//@items.18 //@items.20"/>
+  <items xsi:type="graph:NodeType" label="//@items.2" incoming="//@items.17 //@items.19"/>
+  <items xsi:type="graph:NodeType" label="//@items.1" incoming="//@items.14"/>
+  <items xsi:type="graph:NodeLabel" name="Student" nodes="//@items.6">
+    <properties name="active">
+      <value xsi:type="graph:BooleanType"/>
+    </properties>
+    <properties name="semester">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <properties name="studentID">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <constraints xsi:type="graph:KeyConstraint" name="student_studentid_key" properties="//@items.10/@properties.2"/>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="DegreeProgram" nodes="//@items.7">
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="degree">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="ASSIGNED_TO" edges="//@items.18"/>
+  <items xsi:type="graph:EdgeLabel" name="ATTENDS" edges="//@items.19">
+    <properties name="semester">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:EdgeType" labels="//@items.4" src="//@items.5" tgt="//@items.9"/>
+  <items xsi:type="graph:EdgeLabel" name="ENROLLED" edges="//@items.20">
+    <properties name="enddate">
+      <value xsi:type="graph:TemporalTypes" type="DATE"/>
+    </properties>
+    <properties name="startdate">
+      <value xsi:type="graph:TemporalTypes" type="DATE"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="TEACHES" edges="//@items.17">
+    <properties name="room">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:EdgeType" labels="//@items.16" src="//@items.5" tgt="//@items.8"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.12" src="//@items.5" tgt="//@items.7"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.13" src="//@items.6" tgt="//@items.8"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.15" src="//@items.6" tgt="//@items.7"/>
+</graph:PropertyGraph>

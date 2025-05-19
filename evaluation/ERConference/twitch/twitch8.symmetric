@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="ASCII"?>
+<symmetric:SymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:symmetric="http://www.sidiff.org/difference/symmetric/1.0" uriModelA="platform:/resource/ERConference/twitch/twitch.graph" uriModelB="platform:/resource/ERConference/twitch/twitchV2.graph" notOverlappings="//@changeSets.0 //@changeSets.1 //@changeSets.2 //@changeSets.3 //@changeSets.4 //@changeSets.5 //@changeSets.6 //@changeSets.8 //@changeSets.9 //@changeSets.10 //@changeSets.11 //@changeSets.13 //@changeSets.14 //@changeSets.15 //@changeSets.17 //@changeSets.18 //@changeSets.20 //@changeSets.21 //@changeSets.22 //@changeSets.27 //@changeSets.30 //@changeSets.35 //@changeSets.38 //@changeSets.39 //@changeSets.42 //@changeSets.47 //@changeSets.49 //@changeSets.55">
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.1/@properties.1"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.1/@properties.1"/>
+    <tgt href="twitchV2.graph#//@items.1/@properties.1/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.1/@properties.1/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.1/@properties.2"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.1/@properties.2"/>
+    <tgt href="twitchV2.graph#//@items.1/@properties.2/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.1/@properties.2/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.3"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.3"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.3"/>
+    <tgt href="twitchV2.graph#//@items.3/@properties.0"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.3"/>
+    <tgt href="twitchV2.graph#//@items.21"/>
+    <type href="http://www.thm.de/graph#//NodeLabel/nodes"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.3/@properties.0"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.3/@properties.0"/>
+    <tgt href="twitchV2.graph#//@items.3/@properties.0/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.3/@properties.0/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.1"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.3"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.2"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.5"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.0"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.4"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.6"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4"/>
+    <tgt href="twitchV2.graph#//@items.17"/>
+    <type href="http://www.thm.de/graph#//NodeLabel/nodes"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.0"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4/@properties.0"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.0/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.0/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.1"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4/@properties.1"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.1/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.1/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.3"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4/@properties.3"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.3/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.3/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.4"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4/@properties.4"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.4/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.4/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.5"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4/@properties.5"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.5/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.5/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.6"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.4/@properties.6"/>
+    <tgt href="twitchV2.graph#//@items.4/@properties.6/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.4/@properties.6/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.9/@properties.0"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.9/@properties.0"/>
+    <tgt href="twitchV2.graph#//@items.9/@properties.0/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.9/@properties.0/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.11"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.11"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.11"/>
+    <tgt href="twitchV2.graph#//@items.25"/>
+    <type href="http://www.thm.de/graph#//EdgeLabel/edges"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.13"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.13"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.13"/>
+    <tgt href="twitchV2.graph#//@items.24"/>
+    <type href="http://www.thm.de/graph#//EdgeLabel/edges"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.25"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.25"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.25"/>
+    <tgt href="twitchV2.graph#//@items.11"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.25"/>
+    <tgt href="twitchV2.graph#//@items.16"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.25"/>
+    <tgt href="twitchV2.graph#//@items.17"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.28"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.28"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.28"/>
+    <tgt href="twitchV2.graph#//@items.7"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.28"/>
+    <tgt href="twitchV2.graph#//@items.16"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.28"/>
+    <tgt href="twitchV2.graph#//@items.16"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.31"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.31"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.31"/>
+    <tgt href="twitchV2.graph#//@items.14"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.31"/>
+    <tgt href="twitchV2.graph#//@items.16"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.31"/>
+    <tgt href="twitchV2.graph#//@items.16"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.32"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.32"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.32"/>
+    <tgt href="twitchV2.graph#//@items.10"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.32"/>
+    <tgt href="twitchV2.graph#//@items.16"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.32"/>
+    <tgt href="twitchV2.graph#//@items.16"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.24"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.24"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.24"/>
+    <tgt href="twitchV2.graph#//@items.13"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.24"/>
+    <tgt href="twitchV2.graph#//@items.20"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.24"/>
+    <tgt href="twitchV2.graph#//@items.21"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.17"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.17"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.17"/>
+    <tgt href="twitchV2.graph#//@items.4"/>
+    <type href="http://www.thm.de/graph#//NodeType/label"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.17"/>
+    <tgt href="twitchV2.graph#//@items.25"/>
+    <type href="http://www.thm.de/graph#//NodeType/incoming"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="twitchV2.graph#//@items.21"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.21"/>
+    <tgt href="twitchV2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.21"/>
+    <tgt href="twitchV2.graph#//@items.3"/>
+    <type href="http://www.thm.de/graph#//NodeType/label"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.21"/>
+    <tgt href="twitchV2.graph#//@items.24"/>
+    <type href="http://www.thm.de/graph#//NodeType/incoming"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.13"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.21"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.11"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.25"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.31"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.17"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.4"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.28"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.3"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.32"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#/"/>
+    <tgt href="twitchV2.graph#//@items.24"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.1"/>
+    <tgt href="twitchV2.graph#//@items.1/@properties.1"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.1"/>
+    <tgt href="twitchV2.graph#//@items.1/@properties.2"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="twitch.graph#//@items.1"/>
+    <tgt href="twitch.graph#//@items.1/@properties.1"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="twitch.graph#//@items.0"/>
+    <tgt href="twitch.graph#//@items.12"/>
+    <type href="http://www.thm.de/graph#//NodeLabel/nodes"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.7"/>
+    <tgt href="twitchV2.graph#//@items.28"/>
+    <type href="http://www.thm.de/graph#//EdgeLabel/edges"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.9"/>
+    <tgt href="twitchV2.graph#//@items.9/@properties.0"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.10"/>
+    <tgt href="twitchV2.graph#//@items.32"/>
+    <type href="http://www.thm.de/graph#//EdgeLabel/edges"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.14"/>
+    <tgt href="twitchV2.graph#//@items.31"/>
+    <type href="http://www.thm.de/graph#//EdgeLabel/edges"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.15"/>
+    <tgt href="twitchV2.graph#//@items.26"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.15"/>
+    <tgt href="twitchV2.graph#//@items.30"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.15"/>
+    <tgt href="twitchV2.graph#//@items.27"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="twitch.graph#//@items.20"/>
+    <tgt href="twitch.graph#//@items.12"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.27"/>
+    <tgt href="twitchV2.graph#//@items.15"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="twitch.graph#//@items.23"/>
+    <tgt href="twitch.graph#//@items.12"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.30"/>
+    <tgt href="twitchV2.graph#//@items.15"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="twitch.graph#//@items.24"/>
+    <tgt href="twitch.graph#//@items.12"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.26"/>
+    <tgt href="twitchV2.graph#//@items.15"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.20"/>
+    <tgt href="twitchV2.graph#//@items.24"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="twitch.graph#//@items.12"/>
+    <tgt href="twitch.graph#//@items.0"/>
+    <type href="http://www.thm.de/graph#//NodeType/label"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="twitch.graph#//@items.12"/>
+    <tgt href="twitch.graph#//@items.20"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="twitch.graph#//@items.12"/>
+    <tgt href="twitch.graph#//@items.23"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="twitch.graph#//@items.12"/>
+    <tgt href="twitch.graph#//@items.24"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.16"/>
+    <tgt href="twitchV2.graph#//@items.25"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.16"/>
+    <tgt href="twitchV2.graph#//@items.32"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.16"/>
+    <tgt href="twitchV2.graph#//@items.28"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.16"/>
+    <tgt href="twitchV2.graph#//@items.31"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.16"/>
+    <tgt href="twitchV2.graph#//@items.32"/>
+    <type href="http://www.thm.de/graph#//NodeType/incoming"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.16"/>
+    <tgt href="twitchV2.graph#//@items.28"/>
+    <type href="http://www.thm.de/graph#//NodeType/incoming"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="twitchV2.graph#//@items.16"/>
+    <tgt href="twitchV2.graph#//@items.31"/>
+    <type href="http://www.thm.de/graph#//NodeType/incoming"/>
+  </changes>
+  <changeSets changes="//@changes.96 //@changes.17" name="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" priority="1" recognitionRName="RR: MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" refinementLevel="5" editRName="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" description="MOVEs Property from Label(Reference:properties) to Label(Reference:properties" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.1/@properties.1"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.1"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.2"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtyBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.0"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.75 //@changes.88 //@changes.76" name="CREATE_NodeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_NodeType_IN_PropertyGraph_(items)" description="Creates one NodeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.17"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.55 //@changes.90 //@changes.56" name="CREATE_EdgeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_EdgeType_IN_PropertyGraph_(items)" description="Creates one EdgeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VNqLSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.28"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.44 //@changes.85 //@changes.45" name="CREATE_EdgeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_EdgeLabel_IN_PropertyGraph_(items)" description="Creates one EdgeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQkVVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQkVVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQkVXBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.11"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.35 //@changes.18" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.5"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.41 //@changes.99" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.7"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.9/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.9"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.40 //@changes.39" name="CREATE_NumericType" priority="1" recognitionRName="RR: CREATE_NumericType" refinementLevel="3" editRName="CREATE_NumericType" description="Creates one NumericType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VOJTdxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.6/@value"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_syuCIDG1EfCg2YAAzmjXgQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.6"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.25 //@changes.24" name="CREATE_PropertyValueType_execute" priority="1" recognitionRName="RR: CREATE_PropertyValueType_execute" refinementLevel="3" editRName="CREATE_PropertyValueType_execute" subsets="//@unusedChangeSets.6" description="Creates one StringType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPO4lxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.0/@value"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_AP3nEDGlEfCg2YAAzmjXgQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.29 //@changes.16" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.3"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.38 //@changes.21" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.6"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.23 //@changes.19" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.47 //@changes.83 //@changes.48" name="CREATE_EdgeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_EdgeLabel_IN_PropertyGraph_(items)" description="Creates one EdgeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQkVVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQkVVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQkVXBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.13"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.37 //@changes.36" name="CREATE_PropertyValueType_execute" priority="1" recognitionRName="RR: CREATE_PropertyValueType_execute" refinementLevel="3" editRName="CREATE_PropertyValueType_execute" subsets="//@unusedChangeSets.27" description="Creates one StringType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPO4lxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.5/@value"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_AP3nEDGlEfCg2YAAzmjXgQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.5"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.13 //@changes.89 //@changes.14" name="CREATE_NodeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_NodeLabel_IN_PropertyGraph_(items)" description="Creates one NodeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VOOzDBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.50 //@changes.86 //@changes.51" name="CREATE_EdgeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_EdgeType_IN_PropertyGraph_(items)" description="Creates one EdgeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VNqLSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.25"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.114 //@changes.107" name="REMOVE_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: REMOVE_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="REMOVE_NodeType_(outgoing)_TGT_EdgeType" description="Removes NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VO8kthuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VO8ktxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.23"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VO8kthuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VO8ktxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.30"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.118 //@changes.58" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@unusedChangeSets.0" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQrqFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.28"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.115 //@changes.109" name="REMOVE_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: REMOVE_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="REMOVE_NodeType_(outgoing)_TGT_EdgeType" description="Removes NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VO8kthuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VO8ktxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.24"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VO8kthuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VO8ktxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.26"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.28 //@changes.27" name="CREATE_TemporalTypes" priority="1" recognitionRName="RR: CREATE_TemporalTypes" refinementLevel="3" editRName="CREATE_TemporalTypes" description="Creates one TemporalTypes" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VP18lxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.1/@value"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_-KNu4DG0EfCg2YAAzmjXgQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.1"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.2 //@changes.1" name="CREATE_PropertyValueType_execute" priority="1" recognitionRName="RR: CREATE_PropertyValueType_execute" refinementLevel="3" editRName="CREATE_PropertyValueType_execute" subsets="//@unusedChangeSets.7" description="Creates one StringType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPO4lxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.1/@properties.1/@value"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_AP3nEDGlEfCg2YAAzmjXgQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.1/@properties.1"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.3 //@changes.95" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.2"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.1/@properties.2"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.1"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.10 //@changes.8" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.3/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.3"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.65 //@changes.92 //@changes.66" name="CREATE_EdgeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_EdgeType_IN_PropertyGraph_(items)" description="Creates one EdgeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VNqLSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.32"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.12 //@changes.11" name="CREATE_PropertyValueType_execute" priority="1" recognitionRName="RR: CREATE_PropertyValueType_execute" refinementLevel="3" editRName="CREATE_PropertyValueType_execute" subsets="//@unusedChangeSets.14" description="Creates one StringType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPO4lxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.3/@properties.0/@value"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_AP3nEDGlEfCg2YAAzmjXgQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.3/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.68 //@changes.117" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@unusedChangeSets.19" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQNI9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQNI9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQNI9RuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.32"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.112 //@changes.97" name="REMOVE_NodeType_(label)_TGT_NodeLabel" priority="1" recognitionRName="RR: REMOVE_NodeType_(label)_TGT_NodeLabel" refinementLevel="5" editRName="REMOVE_NodeType_(label)_TGT_NodeLabel" overlayings="//@unusedChangeSets.12" description="Removes NodeType's reference label the target NodeLabel" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VNKcBhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VNKcBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.0"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VNKcBhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VNKcBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.31 //@changes.30" name="CREATE_PropertyValueType_execute" priority="1" recognitionRName="RR: CREATE_PropertyValueType_execute" refinementLevel="3" editRName="CREATE_PropertyValueType_execute" subsets="//@unusedChangeSets.23" description="Creates one StringType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPO4lxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.3/@value"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_AP3nEDGlEfCg2YAAzmjXgQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.3"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.79 //@changes.84 //@changes.80" name="CREATE_NodeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_NodeType_IN_PropertyGraph_(items)" description="Creates one NodeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.21"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.63 //@changes.119" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@unusedChangeSets.2" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQNI9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQNI9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQNI9RuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.31"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.121 //@changes.59" name="ADD_NodeType_(incoming)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(incoming)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(incoming)_TGT_EdgeType" overlayings="//@unusedChangeSets.17" description="Adds to NodeType's reference incoming the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPaexhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPaexxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.28"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPaexhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.34 //@changes.33" name="CREATE_NumericType" priority="1" recognitionRName="RR: CREATE_NumericType" refinementLevel="3" editRName="CREATE_NumericType" description="Creates one NumericType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VOJTdxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.4/@value"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_syuCIDG1EfCg2YAAzmjXgQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.4"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.116 //@changes.53" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@unusedChangeSets.1" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQrqFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.25"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.43 //@changes.42" name="CREATE_PropertyValueType_execute" priority="1" recognitionRName="RR: CREATE_PropertyValueType_execute" refinementLevel="3" editRName="CREATE_PropertyValueType_execute" subsets="//@unusedChangeSets.5" description="Creates one StringType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPO4lxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.9/@properties.0/@value"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_AP3nEDGlEfCg2YAAzmjXgQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.9/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.101 //@changes.62" name="ADD_EdgeLabel_(edges)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_EdgeLabel_(edges)_TGT_EdgeType" refinementLevel="5" editRName="ADD_EdgeLabel_(edges)_TGT_EdgeType" overlayings="//@unusedChangeSets.20" description="Adds to EdgeLabel's reference edges the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.10"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.14"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPKAFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.31"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.54 //@changes.78" name="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" overlayings="//@unusedChangeSets.8" description="Sets EdgeType's reference tgt the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPialRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.25"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPialhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.17"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.26 //@changes.15" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.1"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.81 //@changes.9" name="ADD_NodeType_(label)_TGT_NodeLabel" priority="1" recognitionRName="RR: ADD_NodeType_(label)_TGT_NodeLabel" refinementLevel="5" editRName="ADD_NodeType_(label)_TGT_NodeLabel" overlayings="//@unusedChangeSets.11" description="Adds to NodeType's reference label the target NodeLabel" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VOBXpxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.3"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOBXphuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.21"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.49 //@changes.72" name="ADD_EdgeLabel_(edges)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_EdgeLabel_(edges)_TGT_EdgeType" refinementLevel="5" editRName="ADD_EdgeLabel_(edges)_TGT_EdgeType" overlayings="//@unusedChangeSets.9" description="Adds to EdgeLabel's reference edges the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.13"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPKAFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.24"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.70 //@changes.93 //@changes.71" name="CREATE_EdgeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_EdgeType_IN_PropertyGraph_(items)" description="Creates one EdgeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VNqLSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.24"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.113 //@changes.105" name="REMOVE_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: REMOVE_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="REMOVE_NodeType_(outgoing)_TGT_EdgeType" description="Removes NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VO8kthuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VO8ktxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.20"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VO8kthuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VO8ktxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.27"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.102 //@changes.110" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@unusedChangeSets.21" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.11"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VQrqFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.24"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.15"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQrqFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.26"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.100 //@changes.67" name="ADD_EdgeLabel_(edges)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_EdgeLabel_(edges)_TGT_EdgeType" refinementLevel="5" editRName="ADD_EdgeLabel_(edges)_TGT_EdgeType" overlayings="//@unusedChangeSets.18" description="Adds to EdgeLabel's reference edges the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.8"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.10"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPKAFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.32"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.32 //@changes.20" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4/@properties.4"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.5 //@changes.4" name="CREATE_PropertyValueType_execute" priority="1" recognitionRName="RR: CREATE_PropertyValueType_execute" refinementLevel="3" editRName="CREATE_PropertyValueType_execute" subsets="//@unusedChangeSets.25" description="Creates one StringType" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPO4lxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.1/@properties.2/@value"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_AP3nEDGlEfCg2YAAzmjXgQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.1/@properties.2"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.74 //@changes.82" name="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" overlayings="//@unusedChangeSets.3" description="Sets EdgeType's reference tgt the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPialRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.24"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPialhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.21"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.108 //@changes.103" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@unusedChangeSets.15" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQNI9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.11"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VQNI9RuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.23"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQNI9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.15"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQNI9RuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.30"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.64 //@changes.122" name="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" overlayings="//@unusedChangeSets.13" description="Sets EdgeType's reference tgt the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPialhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPialRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.31"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPialhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.60 //@changes.87 //@changes.61" name="CREATE_EdgeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_EdgeType_IN_PropertyGraph_(items)" description="Creates one EdgeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VNqLSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.31"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.98 //@changes.57" name="ADD_EdgeLabel_(edges)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_EdgeLabel_(edges)_TGT_EdgeType" refinementLevel="5" editRName="ADD_EdgeLabel_(edges)_TGT_EdgeType" overlayings="//@unusedChangeSets.4" description="Adds to EdgeLabel's reference edges the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.7"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPKAFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.28"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.6 //@changes.91 //@changes.7" name="CREATE_NodeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_NodeLabel_IN_PropertyGraph_(items)" description="Creates one NodeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VOOzDBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.3"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.73 //@changes.111" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@unusedChangeSets.16" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQNI9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.15"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQNI9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.20"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQNI9RuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.24"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.120 //@changes.69" name="ADD_NodeType_(incoming)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(incoming)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(incoming)_TGT_EdgeType" overlayings="//@unusedChangeSets.22" description="Adds to NodeType's reference incoming the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPaexhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPaexxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.32"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPaexhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.22 //@changes.77" name="ADD_NodeLabel_(nodes)_TGT_NodeType" priority="1" recognitionRName="RR: ADD_NodeLabel_(nodes)_TGT_NodeType" refinementLevel="5" editRName="ADD_NodeLabel_(nodes)_TGT_NodeType" overlayings="//@unusedChangeSets.10" description="Adds to NodeLabel's reference nodes the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VN6p9xuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.17"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VN6p9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.46 //@changes.52" name="ADD_EdgeLabel_(edges)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_EdgeLabel_(edges)_TGT_EdgeType" refinementLevel="5" editRName="ADD_EdgeLabel_(edges)_TGT_EdgeType" overlayings="//@unusedChangeSets.24" description="Adds to EdgeLabel's reference edges the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.11"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPKAFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.25"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.104 //@changes.106" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@unusedChangeSets.26" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.11"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VQrqFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.20"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.15"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQrqFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.27"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.0 //@changes.94" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitch.graph#//@items.2"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.1/@properties.1"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="twitchV2.graph#//@items.1"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <unusedChangeSets changes="//@changes.58 //@changes.118" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@changeSets.16" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.53 //@changes.116" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@changeSets.31" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.119 //@changes.63" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@changeSets.28" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.82 //@changes.74" name="ADD_NodeType_(incoming)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(incoming)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(incoming)_TGT_EdgeType" overlayings="//@changeSets.44" description="Adds to NodeType's reference incoming the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.57 //@changes.98" name="ADD_EdgeType_(labels)_TGT_EdgeLabel" priority="1" recognitionRName="RR: ADD_EdgeType_(labels)_TGT_EdgeLabel" refinementLevel="5" editRName="ADD_EdgeType_(labels)_TGT_EdgeLabel" overlayings="//@changeSets.48" description="Adds to EdgeType's reference labels the target EdgeLabel" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.43" name="CREATE_StringType" priority="1" recognitionRName="RR: CREATE_StringType" refinementLevel="2" editRName="CREATE_StringType" supersets="//@changeSets.32" description="Creates one StringType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.25" name="CREATE_StringType" priority="1" recognitionRName="RR: CREATE_StringType" refinementLevel="2" editRName="CREATE_StringType" supersets="//@changeSets.7" description="Creates one StringType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.2" name="CREATE_StringType" priority="1" recognitionRName="RR: CREATE_StringType" refinementLevel="2" editRName="CREATE_StringType" supersets="//@changeSets.19" description="Creates one StringType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.78 //@changes.54" name="ADD_NodeType_(incoming)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(incoming)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(incoming)_TGT_EdgeType" overlayings="//@changeSets.34" description="Adds to NodeType's reference incoming the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.72 //@changes.49" name="ADD_EdgeType_(labels)_TGT_EdgeLabel" priority="1" recognitionRName="RR: ADD_EdgeType_(labels)_TGT_EdgeLabel" refinementLevel="5" editRName="ADD_EdgeType_(labels)_TGT_EdgeLabel" overlayings="//@changeSets.37" description="Adds to EdgeType's reference labels the target EdgeLabel" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.77 //@changes.22" name="ADD_NodeType_(label)_TGT_NodeLabel" priority="1" recognitionRName="RR: ADD_NodeType_(label)_TGT_NodeLabel" refinementLevel="5" editRName="ADD_NodeType_(label)_TGT_NodeLabel" overlayings="//@changeSets.52" description="Adds to NodeType's reference label the target NodeLabel" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.9 //@changes.81" name="ADD_NodeLabel_(nodes)_TGT_NodeType" priority="1" recognitionRName="RR: ADD_NodeLabel_(nodes)_TGT_NodeType" refinementLevel="5" editRName="ADD_NodeLabel_(nodes)_TGT_NodeType" overlayings="//@changeSets.36" description="Adds to NodeLabel's reference nodes the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.97 //@changes.112" name="REMOVE_NodeLabel_(nodes)_TGT_NodeType" priority="1" recognitionRName="RR: REMOVE_NodeLabel_(nodes)_TGT_NodeType" refinementLevel="5" editRName="REMOVE_NodeLabel_(nodes)_TGT_NodeType" overlayings="//@changeSets.25" description="Removes NodeLabel's reference nodes the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.122 //@changes.64" name="ADD_NodeType_(incoming)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(incoming)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(incoming)_TGT_EdgeType" overlayings="//@changeSets.46" description="Adds to NodeType's reference incoming the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.12" name="CREATE_StringType" priority="1" recognitionRName="RR: CREATE_StringType" refinementLevel="2" editRName="CREATE_StringType" supersets="//@changeSets.23" description="Creates one StringType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.103 //@changes.108" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@changeSets.45" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.111 //@changes.73" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@changeSets.50" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.59 //@changes.121" name="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" overlayings="//@changeSets.29" description="Sets EdgeType's reference tgt the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.67 //@changes.100" name="ADD_EdgeType_(labels)_TGT_EdgeLabel" priority="1" recognitionRName="RR: ADD_EdgeType_(labels)_TGT_EdgeLabel" refinementLevel="5" editRName="ADD_EdgeType_(labels)_TGT_EdgeLabel" overlayings="//@changeSets.41" description="Adds to EdgeType's reference labels the target EdgeLabel" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.117 //@changes.68" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@changeSets.24" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.62 //@changes.101" name="ADD_EdgeType_(labels)_TGT_EdgeLabel" priority="1" recognitionRName="RR: ADD_EdgeType_(labels)_TGT_EdgeLabel" refinementLevel="5" editRName="ADD_EdgeType_(labels)_TGT_EdgeLabel" overlayings="//@changeSets.33" description="Adds to EdgeType's reference labels the target EdgeLabel" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.110 //@changes.102" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@changeSets.40" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.69 //@changes.120" name="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" overlayings="//@changeSets.51" description="Sets EdgeType's reference tgt the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.31" name="CREATE_StringType" priority="1" recognitionRName="RR: CREATE_StringType" refinementLevel="2" editRName="CREATE_StringType" supersets="//@changeSets.26" description="Creates one StringType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.52 //@changes.46" name="ADD_EdgeType_(labels)_TGT_EdgeLabel" priority="1" recognitionRName="RR: ADD_EdgeType_(labels)_TGT_EdgeLabel" refinementLevel="5" editRName="ADD_EdgeType_(labels)_TGT_EdgeLabel" overlayings="//@changeSets.53" description="Adds to EdgeType's reference labels the target EdgeLabel" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.5" name="CREATE_StringType" priority="1" recognitionRName="RR: CREATE_StringType" refinementLevel="2" editRName="CREATE_StringType" supersets="//@changeSets.43" description="Creates one StringType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.106 //@changes.104" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@changeSets.54" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.37" name="CREATE_StringType" priority="1" recognitionRName="RR: CREATE_StringType" refinementLevel="2" editRName="CREATE_StringType" supersets="//@changeSets.12" description="Creates one StringType" numberOfParams="2"/>
+  <matching uriA="platform:/resource/ERConference/twitch/twitch.graph" uriB="platform:/resource/ERConference/twitch/twitchV2.graph">
+    <correspondences containmentCorrespondences="//@matching/@correspondences.1 //@matching/@correspondences.9 //@matching/@correspondences.13 //@matching/@correspondences.17 //@matching/@correspondences.33 //@matching/@correspondences.37 //@matching/@correspondences.38 //@matching/@correspondences.39 //@matching/@correspondences.40 //@matching/@correspondences.41 //@matching/@correspondences.42 //@matching/@correspondences.43 //@matching/@correspondences.44 //@matching/@correspondences.45 //@matching/@correspondences.46 //@matching/@correspondences.47 //@matching/@correspondences.48 //@matching/@correspondences.49 //@matching/@correspondences.50 //@matching/@correspondences.51 //@matching/@correspondences.52 //@matching/@correspondences.53 //@matching/@correspondences.54 //@matching/@correspondences.55">
+      <matchedA href="twitch.graph#/"/>
+      <matchedB href="twitchV2.graph#/"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.2 //@matching/@correspondences.4 //@matching/@correspondences.6 //@matching/@correspondences.8">
+      <matchedA href="twitch.graph#//@items.4"/>
+      <matchedB href="twitchV2.graph#//@items.6"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.3">
+      <matchedA href="twitch.graph#//@items.4/@properties.0"/>
+      <matchedB href="twitchV2.graph#//@items.6/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.2">
+      <matchedA href="twitch.graph#//@items.4/@properties.0/@value"/>
+      <matchedB href="twitchV2.graph#//@items.6/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.5">
+      <matchedA href="twitch.graph#//@items.4/@properties.2"/>
+      <matchedB href="twitchV2.graph#//@items.6/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.4">
+      <matchedA href="twitch.graph#//@items.4/@properties.2/@value"/>
+      <matchedB href="twitchV2.graph#//@items.6/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.7">
+      <matchedA href="twitch.graph#//@items.4/@properties.1"/>
+      <matchedB href="twitchV2.graph#//@items.6/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.6">
+      <matchedA href="twitch.graph#//@items.4/@properties.1/@value"/>
+      <matchedB href="twitchV2.graph#//@items.6/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1">
+      <matchedA href="twitch.graph#//@items.4/@constraints.0"/>
+      <matchedB href="twitchV2.graph#//@items.6/@constraints.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.10 //@matching/@correspondences.12">
+      <matchedA href="twitch.graph#//@items.3"/>
+      <matchedB href="twitchV2.graph#//@items.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.9" containmentCorrespondences="//@matching/@correspondences.11">
+      <matchedA href="twitch.graph#//@items.3/@properties.0"/>
+      <matchedB href="twitchV2.graph#//@items.2/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.10">
+      <matchedA href="twitch.graph#//@items.3/@properties.0/@value"/>
+      <matchedB href="twitchV2.graph#//@items.2/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.9">
+      <matchedA href="twitch.graph#//@items.3/@constraints.0"/>
+      <matchedB href="twitchV2.graph#//@items.2/@constraints.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.14 //@matching/@correspondences.16">
+      <matchedA href="twitch.graph#//@items.2"/>
+      <matchedB href="twitchV2.graph#//@items.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.13" containmentCorrespondences="//@matching/@correspondences.15">
+      <matchedA href="twitch.graph#//@items.2/@properties.0"/>
+      <matchedB href="twitchV2.graph#//@items.1/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.14">
+      <matchedA href="twitch.graph#//@items.2/@properties.0/@value"/>
+      <matchedB href="twitchV2.graph#//@items.1/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.13">
+      <matchedA href="twitch.graph#//@items.2/@constraints.0"/>
+      <matchedB href="twitchV2.graph#//@items.1/@constraints.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.18 //@matching/@correspondences.20 //@matching/@correspondences.22 //@matching/@correspondences.24 //@matching/@correspondences.26 //@matching/@correspondences.28 //@matching/@correspondences.32">
+      <matchedA href="twitch.graph#//@items.1"/>
+      <matchedB href="twitchV2.graph#//@items.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17" containmentCorrespondences="//@matching/@correspondences.19">
+      <matchedA href="twitch.graph#//@items.1/@properties.0"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.5"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.18">
+      <matchedA href="twitch.graph#//@items.1/@properties.0/@value"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.5/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17" containmentCorrespondences="//@matching/@correspondences.21">
+      <matchedA href="twitch.graph#//@items.1/@properties.5"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.20">
+      <matchedA href="twitch.graph#//@items.1/@properties.5/@value"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17" containmentCorrespondences="//@matching/@correspondences.23">
+      <matchedA href="twitch.graph#//@items.1/@properties.2"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.22">
+      <matchedA href="twitch.graph#//@items.1/@properties.2/@value"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17" containmentCorrespondences="//@matching/@correspondences.25">
+      <matchedA href="twitch.graph#//@items.1/@properties.6"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.4"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.24">
+      <matchedA href="twitch.graph#//@items.1/@properties.6/@value"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.4/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17" containmentCorrespondences="//@matching/@correspondences.27">
+      <matchedA href="twitch.graph#//@items.1/@properties.4"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.26">
+      <matchedA href="twitch.graph#//@items.1/@properties.4/@value"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17" containmentCorrespondences="//@matching/@correspondences.29">
+      <matchedA href="twitch.graph#//@items.1/@properties.3"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.28">
+      <matchedA href="twitch.graph#//@items.1/@properties.3/@value"/>
+      <matchedB href="twitchV2.graph#//@items.0/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containmentCorrespondences="//@matching/@correspondences.31">
+      <matchedA href="twitch.graph#//@items.1/@properties.1"/>
+      <matchedB href="twitchV2.graph#//@items.4/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.30">
+      <matchedA href="twitch.graph#//@items.1/@properties.1/@value"/>
+      <matchedB href="twitchV2.graph#//@items.4/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17">
+      <matchedA href="twitch.graph#//@items.1/@constraints.0"/>
+      <matchedB href="twitchV2.graph#//@items.0/@constraints.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.34 //@matching/@correspondences.36">
+      <matchedA href="twitch.graph#//@items.0"/>
+      <matchedB href="twitchV2.graph#//@items.5"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.33" containmentCorrespondences="//@matching/@correspondences.35">
+      <matchedA href="twitch.graph#//@items.0/@properties.0"/>
+      <matchedB href="twitchV2.graph#//@items.5/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.34">
+      <matchedA href="twitch.graph#//@items.0/@properties.0/@value"/>
+      <matchedB href="twitchV2.graph#//@items.5/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.33">
+      <matchedA href="twitch.graph#//@items.0/@constraints.0"/>
+      <matchedB href="twitchV2.graph#//@items.5/@constraints.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.5"/>
+      <matchedB href="twitchV2.graph#//@items.7"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.6"/>
+      <matchedB href="twitchV2.graph#//@items.8"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.7"/>
+      <matchedB href="twitchV2.graph#//@items.9"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.8"/>
+      <matchedB href="twitchV2.graph#//@items.10"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.9"/>
+      <matchedB href="twitchV2.graph#//@items.12"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.10"/>
+      <matchedB href="twitchV2.graph#//@items.14"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.11"/>
+      <matchedB href="twitchV2.graph#//@items.15"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.14"/>
+      <matchedB href="twitchV2.graph#//@items.19"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.16"/>
+      <matchedB href="twitchV2.graph#//@items.22"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.17"/>
+      <matchedB href="twitchV2.graph#//@items.23"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.18"/>
+      <matchedB href="twitchV2.graph#//@items.26"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.19"/>
+      <matchedB href="twitchV2.graph#//@items.27"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.20"/>
+      <matchedB href="twitchV2.graph#//@items.27"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.21"/>
+      <matchedB href="twitchV2.graph#//@items.29"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.22"/>
+      <matchedB href="twitchV2.graph#//@items.30"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.23"/>
+      <matchedB href="twitchV2.graph#//@items.30"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.24"/>
+      <matchedB href="twitchV2.graph#//@items.26"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.13"/>
+      <matchedB href="twitchV2.graph#//@items.18"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="twitch.graph#//@items.15"/>
+      <matchedB href="twitchV2.graph#//@items.20"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="twitch.graph#//@items.12"/>
+      <matchedB href="twitchV2.graph#//@items.16"/>
+    </correspondences>
+    <unmatchedB href="twitchV2.graph#//@items.1/@properties.1"/>
+    <unmatchedB href="twitchV2.graph#//@items.1/@properties.1/@value"/>
+    <unmatchedB href="twitchV2.graph#//@items.1/@properties.2"/>
+    <unmatchedB href="twitchV2.graph#//@items.1/@properties.2/@value"/>
+    <unmatchedB href="twitchV2.graph#//@items.3"/>
+    <unmatchedB href="twitchV2.graph#//@items.3/@properties.0"/>
+    <unmatchedB href="twitchV2.graph#//@items.3/@properties.0/@value"/>
+    <unmatchedB href="twitchV2.graph#//@items.4"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.0"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.0/@value"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.1"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.1/@value"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.3"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.3/@value"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.4"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.4/@value"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.5"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.5/@value"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.6"/>
+    <unmatchedB href="twitchV2.graph#//@items.4/@properties.6/@value"/>
+    <unmatchedB href="twitchV2.graph#//@items.9/@properties.0"/>
+    <unmatchedB href="twitchV2.graph#//@items.9/@properties.0/@value"/>
+    <unmatchedB href="twitchV2.graph#//@items.11"/>
+    <unmatchedB href="twitchV2.graph#//@items.13"/>
+    <unmatchedB href="twitchV2.graph#//@items.25"/>
+    <unmatchedB href="twitchV2.graph#//@items.28"/>
+    <unmatchedB href="twitchV2.graph#//@items.31"/>
+    <unmatchedB href="twitchV2.graph#//@items.32"/>
+    <unmatchedB href="twitchV2.graph#//@items.24"/>
+    <unmatchedB href="twitchV2.graph#//@items.17"/>
+    <unmatchedB href="twitchV2.graph#//@items.21"/>
+  </matching>
+</symmetric:SymmetricDifference>

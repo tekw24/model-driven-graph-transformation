@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph:PropertyGraph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:graph="http://www.thm.de/graph" name="MyGraph">
+  <items xsi:type="graph:NodeLabel" name="Professor" nodes="//@items.4">
+    <properties name="dname">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="employeeid">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <properties name="did">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <constraints xsi:type="graph:KeyConstraint" name="professor_employeeid_key" properties="//@items.0/@properties.1"/>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Course" nodes="//@items.12">
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="creditpoints">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Person" nodes="//@items.4 //@items.10">
+    <properties name="birthdate">
+      <value xsi:type="graph:TemporalTypes" type="DATE"/>
+    </properties>
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <constraints xsi:type="graph:PropertyExistenceConstraint" name="person_name_exists" properties="//@items.2/@properties.1"/>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="TEACHES" edges="//@items.15">
+    <properties name="room">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeType" label="//@items.2 //@items.0" outgoing="//@items.15 //@items.13"/>
+  <items xsi:type="graph:NodeLabel" name="Student" nodes="//@items.10">
+    <properties name="active">
+      <value xsi:type="graph:BooleanType"/>
+    </properties>
+    <properties name="semester">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <properties name="studentID">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <constraints xsi:type="graph:KeyConstraint" name="student_studentid_key" properties="//@items.5/@properties.2"/>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="DegreeProgram" nodes="//@items.11">
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="degree">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="ASSIGNED_TO" edges="//@items.13"/>
+  <items xsi:type="graph:EdgeLabel" name="ATTENDS" edges="//@items.14">
+    <properties name="semester">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="ENROLLED" edges="//@items.16">
+    <properties name="enddate">
+      <value xsi:type="graph:TemporalTypes" type="DATE"/>
+    </properties>
+    <properties name="startdate">
+      <value xsi:type="graph:TemporalTypes" type="DATE"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeType" label="//@items.2 //@items.5" outgoing="//@items.14 //@items.16"/>
+  <items xsi:type="graph:NodeType" label="//@items.6" incoming="//@items.13 //@items.16"/>
+  <items xsi:type="graph:NodeType" label="//@items.1" incoming="//@items.15 //@items.14"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.7" src="//@items.4" tgt="//@items.11"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.8" src="//@items.10" tgt="//@items.12"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.3" src="//@items.4" tgt="//@items.12"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.9" src="//@items.10" tgt="//@items.11"/>
+</graph:PropertyGraph>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="ASCII"?>
+<symmetric:SymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:symmetric="http://www.sidiff.org/difference/symmetric/1.0" uriModelA="platform:/resource/ERConference/model/university2.graph" uriModelB="platform:/resource/ERConference/model/genModel/university2.V2.graph" notOverlappings="//@changeSets.0 //@changeSets.3 //@changeSets.5 //@changeSets.8 //@changeSets.10">
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="../model/genModel/university2.V2.graph#//@items.5"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.5"/>
+    <tgt href="../model/genModel/university2.V2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.5"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.5/@properties.1"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.5"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.5/@properties.0"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.5"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.15"/>
+    <type href="http://www.thm.de/graph#//NodeLabel/nodes"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="../model/genModel/university2.V2.graph#//@items.10"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.10"/>
+    <tgt href="../model/genModel/university2.V2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.10"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.20"/>
+    <type href="http://www.thm.de/graph#//EdgeLabel/edges"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="../model/genModel/university2.V2.graph#//@items.15"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.15"/>
+    <tgt href="../model/genModel/university2.V2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.15"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.5"/>
+    <type href="http://www.thm.de/graph#//NodeType/label"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.15"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.20"/>
+    <type href="http://www.thm.de/graph#//NodeType/incoming"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="../model/genModel/university2.V2.graph#//@items.20"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.20"/>
+    <tgt href="../model/genModel/university2.V2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.20"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.10"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.20"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.11"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.20"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.15"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#/"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.10"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#/"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.5"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#/"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.20"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#/"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.15"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="../model/university2.graph#//@items.0"/>
+    <tgt href="../model/university2.graph#//@items.0/@properties.0"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="../model/university2.graph#//@items.0"/>
+    <tgt href="../model/university2.graph#//@items.0/@properties.2"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="../model/genModel/university2.V2.graph#//@items.11"/>
+    <tgt href="../model/genModel/university2.V2.graph#//@items.20"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:AttributeValueChange">
+    <objA href="../model/university2.graph#//@items.4"/>
+    <objB href="../model/genModel/university2.V2.graph#//@items.4"/>
+    <type href="http://www.thm.de/graph#//Label/name"/>
+  </changes>
+  <changeSets changes="//@changes.24" name="SET_ATTRIBUTE_Label_Name" priority="1" recognitionRName="RR: SET_ATTRIBUTE_Label_Name" refinementLevel="2" editRName="SET_ATTRIBUTE_Label_Name" description="Sets Label Name" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQKFpRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/university2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQKFpRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.4"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.22 //@changes.3" name="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" priority="1" recognitionRName="RR: MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" refinementLevel="5" editRName="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" overlayings="//@unusedChangeSets.2" description="MOVEs Property from Label(Reference:properties) to Label(Reference:properties" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/university2.graph#//@items.0/@properties.2"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/university2.graph#//@items.0"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPQtxhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.5/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtxxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPQtyBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.16 //@changes.11" name="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(tgt)_TGT_NodeType" overlayings="//@unusedChangeSets.1" description="Sets EdgeType's reference tgt the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPialRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.20"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPialhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.15"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.8 //@changes.20 //@changes.9" name="CREATE_NodeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_NodeType_IN_PropertyGraph_(items)" description="Creates one NodeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/university2.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.15"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.23 //@changes.15" name="ADD_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(outgoing)_TGT_EdgeType" overlayings="//@unusedChangeSets.4" description="Adds to NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/university2.graph#//@items.9"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQrqFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.11"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQrqFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.20"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.0 //@changes.18 //@changes.1" name="CREATE_NodeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_NodeLabel_IN_PropertyGraph_(items)" description="Creates one NodeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/university2.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VOOzDBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.10 //@changes.4" name="ADD_NodeType_(label)_TGT_NodeLabel" priority="1" recognitionRName="RR: ADD_NodeType_(label)_TGT_NodeLabel" refinementLevel="5" editRName="ADD_NodeType_(label)_TGT_NodeLabel" overlayings="//@unusedChangeSets.0" description="Adds to NodeType's reference label the target NodeLabel" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VOBXpxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOBXphuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.15"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.21 //@changes.2" name="MOVE_Property_FROM_Label_(properties)_TO_Label_(properties)" priority="1" recognitionRName="RR: MOVE_Property_FROM_Label_(properties)_TO_Label_(properties)" refinementLevel="5" editRName="MOVE_Property_FROM_Label_(properties)_TO_Label_(properties)" overlayings="//@unusedChangeSets.3" description="MOVEs Property from Label(Reference:properties) to Label(Reference:properties" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VOM91xuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/university2.graph#//@items.0"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VOM91huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/university2.graph#//@items.0/@properties.0"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VOM91xuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOM91huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.5/@properties.1"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOM92BuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.5"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.5 //@changes.17 //@changes.6" name="CREATE_EdgeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_EdgeLabel_IN_PropertyGraph_(items)" description="Creates one EdgeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQkVVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/university2.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQkVVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VQkVXBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.10"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.7 //@changes.14" name="ADD_EdgeLabel_(edges)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_EdgeLabel_(edges)_TGT_EdgeType" refinementLevel="5" editRName="ADD_EdgeLabel_(edges)_TGT_EdgeType" overlayings="//@unusedChangeSets.5" description="Adds to EdgeLabel's reference edges the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesB key="_VPKAFhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.10"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPKAFxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.20"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.12 //@changes.19 //@changes.13" name="CREATE_EdgeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_EdgeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="CREATE_EdgeType_IN_PropertyGraph_(items)" description="Creates one EdgeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/university2.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VNqLSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#//@items.20"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VNqLRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="../model/genModel/university2.V2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <unusedChangeSets changes="//@changes.4 //@changes.10" name="ADD_NodeLabel_(nodes)_TGT_NodeType" priority="1" recognitionRName="RR: ADD_NodeLabel_(nodes)_TGT_NodeType" refinementLevel="5" editRName="ADD_NodeLabel_(nodes)_TGT_NodeType" overlayings="//@changeSets.6" description="Adds to NodeLabel's reference nodes the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.11 //@changes.16" name="ADD_NodeType_(incoming)_TGT_EdgeType" priority="1" recognitionRName="RR: ADD_NodeType_(incoming)_TGT_EdgeType" refinementLevel="4" editRName="ADD_NodeType_(incoming)_TGT_EdgeType" overlayings="//@changeSets.2" description="Adds to NodeType's reference incoming the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.22 //@changes.3" name="MOVE_Property_FROM_Label_(properties)_TO_Label_(properties)" priority="1" recognitionRName="RR: MOVE_Property_FROM_Label_(properties)_TO_Label_(properties)" refinementLevel="5" editRName="MOVE_Property_FROM_Label_(properties)_TO_Label_(properties)" overlayings="//@changeSets.1" description="MOVEs Property from Label(Reference:properties) to Label(Reference:properties" numberOfParams="3"/>
+  <unusedChangeSets changes="//@changes.21 //@changes.2" name="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" priority="1" recognitionRName="RR: MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" refinementLevel="5" editRName="MOVE_REF_COMBI_Property_FROM_Label_(properties)_TO_Label_(properties)" overlayings="//@changeSets.7" description="MOVEs Property from Label(Reference:properties) to Label(Reference:properties" numberOfParams="3"/>
+  <unusedChangeSets changes="//@changes.15 //@changes.23" name="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" priority="1" recognitionRName="RR: SET_REFERENCE_EdgeType_(src)_TGT_NodeType" refinementLevel="4" editRName="SET_REFERENCE_EdgeType_(src)_TGT_NodeType" overlayings="//@changeSets.4" description="Sets EdgeType's reference src the target NodeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.14 //@changes.7" name="ADD_EdgeType_(labels)_TGT_EdgeLabel" priority="1" recognitionRName="RR: ADD_EdgeType_(labels)_TGT_EdgeLabel" refinementLevel="5" editRName="ADD_EdgeType_(labels)_TGT_EdgeLabel" overlayings="//@changeSets.9" description="Adds to EdgeType's reference labels the target EdgeLabel" numberOfParams="2"/>
+  <matching uriA="platform:/resource/ERConference/model/university2.graph" uriB="platform:/resource/ERConference/model/genModel/university2.V2.graph">
+    <correspondences containmentCorrespondences="//@matching/@correspondences.1 //@matching/@correspondences.7 //@matching/@correspondences.12 //@matching/@correspondences.17 //@matching/@correspondences.25 //@matching/@correspondences.33 //@matching/@correspondences.36 //@matching/@correspondences.41 //@matching/@correspondences.42 //@matching/@correspondences.43 //@matching/@correspondences.44 //@matching/@correspondences.45">
+      <matchedA href="../model/university2.graph#/"/>
+      <matchedB href="../model/genModel/university2.V2.graph#/"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.2 //@matching/@correspondences.4 //@matching/@correspondences.6">
+      <matchedA href="../model/university2.graph#//@items.2"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.3">
+      <matchedA href="../model/university2.graph#//@items.2/@properties.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.2/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.2">
+      <matchedA href="../model/university2.graph#//@items.2/@properties.0/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.2/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.5">
+      <matchedA href="../model/university2.graph#//@items.2/@properties.1"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.2/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.4">
+      <matchedA href="../model/university2.graph#//@items.2/@properties.1/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.2/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1">
+      <matchedA href="../model/university2.graph#//@items.2/@constraints.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.2/@constraints.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.8 //@matching/@correspondences.10">
+      <matchedA href="../model/university2.graph#//@items.7"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.8"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.7" containmentCorrespondences="//@matching/@correspondences.9">
+      <matchedA href="../model/university2.graph#//@items.7/@properties.1"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.8/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.8">
+      <matchedA href="../model/university2.graph#//@items.7/@properties.1/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.8/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.7" containmentCorrespondences="//@matching/@correspondences.11">
+      <matchedA href="../model/university2.graph#//@items.7/@properties.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.8/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.10">
+      <matchedA href="../model/university2.graph#//@items.7/@properties.0/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.8/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.13">
+      <matchedA href="../model/university2.graph#//@items.6"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.7"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.12" containmentCorrespondences="//@matching/@correspondences.14">
+      <matchedA href="../model/university2.graph#//@items.6/@properties.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.7/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.13">
+      <matchedA href="../model/university2.graph#//@items.6/@properties.0/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.7/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containmentCorrespondences="//@matching/@correspondences.16">
+      <matchedA href="../model/university2.graph#//@items.4/@properties.1"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.4/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.15">
+      <matchedA href="../model/university2.graph#//@items.4/@properties.1/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.4/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.18 //@matching/@correspondences.20 //@matching/@correspondences.22 //@matching/@correspondences.24">
+      <matchedA href="../model/university2.graph#//@items.1"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17" containmentCorrespondences="//@matching/@correspondences.19">
+      <matchedA href="../model/university2.graph#//@items.1/@properties.2"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.1/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.18">
+      <matchedA href="../model/university2.graph#//@items.1/@properties.2/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.1/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17" containmentCorrespondences="//@matching/@correspondences.21">
+      <matchedA href="../model/university2.graph#//@items.1/@properties.1"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.1/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.20">
+      <matchedA href="../model/university2.graph#//@items.1/@properties.1/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.1/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17" containmentCorrespondences="//@matching/@correspondences.23">
+      <matchedA href="../model/university2.graph#//@items.1/@properties.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.1/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.22">
+      <matchedA href="../model/university2.graph#//@items.1/@properties.0/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.1/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.17">
+      <matchedA href="../model/university2.graph#//@items.1/@constraints.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.1/@constraints.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.28 //@matching/@correspondences.32">
+      <matchedA href="../model/university2.graph#//@items.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.0"/>
+    </correspondences>
+    <correspondences containmentCorrespondences="//@matching/@correspondences.27">
+      <matchedA href="../model/university2.graph#//@items.0/@properties.2"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.5/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.26">
+      <matchedA href="../model/university2.graph#//@items.0/@properties.2/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.5/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.25" containmentCorrespondences="//@matching/@correspondences.29">
+      <matchedA href="../model/university2.graph#//@items.0/@properties.1"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.0/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.28">
+      <matchedA href="../model/university2.graph#//@items.0/@properties.1/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.0/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containmentCorrespondences="//@matching/@correspondences.31">
+      <matchedA href="../model/university2.graph#//@items.0/@properties.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.5/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.30">
+      <matchedA href="../model/university2.graph#//@items.0/@properties.0/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.5/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.25">
+      <matchedA href="../model/university2.graph#//@items.0/@constraints.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.0/@constraints.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.34">
+      <matchedA href="../model/university2.graph#//@items.8"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.9"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.33" containmentCorrespondences="//@matching/@correspondences.35">
+      <matchedA href="../model/university2.graph#//@items.8/@properties.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.9/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.34">
+      <matchedA href="../model/university2.graph#//@items.8/@properties.0/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.9/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.37 //@matching/@correspondences.39">
+      <matchedA href="../model/university2.graph#//@items.3"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.36" containmentCorrespondences="//@matching/@correspondences.38">
+      <matchedA href="../model/university2.graph#//@items.3/@properties.1"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.3/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.37">
+      <matchedA href="../model/university2.graph#//@items.3/@properties.1/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.3/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.36" containmentCorrespondences="//@matching/@correspondences.40">
+      <matchedA href="../model/university2.graph#//@items.3/@properties.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.3/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.39">
+      <matchedA href="../model/university2.graph#//@items.3/@properties.0/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.3/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="../model/university2.graph#//@items.5"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.6"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="../model/university2.graph#//@items.9"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.11"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="../model/university2.graph#//@items.10"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.12"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="../model/university2.graph#//@items.11"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.13"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="../model/university2.graph#//@items.12"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.14"/>
+    </correspondences>
+    <correspondences containmentCorrespondences="//@matching/@correspondences.47">
+      <matchedA href="../model/university2.graph#//@items.4/@properties.0"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.4/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.46">
+      <matchedA href="../model/university2.graph#//@items.4/@properties.0/@value"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.4/@properties.0/@value"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="../model/university2.graph#//@items.4"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.4"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="../model/university2.graph#//@items.16"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.19"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="../model/university2.graph#//@items.13"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.16"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="../model/university2.graph#//@items.15"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.18"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="../model/university2.graph#//@items.14"/>
+      <matchedB href="../model/genModel/university2.V2.graph#//@items.17"/>
+    </correspondences>
+    <unmatchedB href="../model/genModel/university2.V2.graph#//@items.5"/>
+    <unmatchedB href="../model/genModel/university2.V2.graph#//@items.10"/>
+    <unmatchedB href="../model/genModel/university2.V2.graph#//@items.15"/>
+    <unmatchedB href="../model/genModel/university2.V2.graph#//@items.20"/>
+  </matching>
+</symmetric:SymmetricDifference>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph:PropertyGraph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:graph="http://www.thm.de/graph" name="MyGraph">
+  <items xsi:type="graph:NodeLabel" name="User" nodes="//@items.11 //@items.12">
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <constraints xsi:type="graph:UniqueConstraint" name="constraint_952bbd70" properties="//@items.0/@properties.0"/>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Stream" nodes="//@items.12">
+    <properties name="createdAt">
+      <value xsi:type="graph:TemporalTypes"/>
+    </properties>
+    <properties name="description">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="followers">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <properties name="id">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="total_view_count">
+      <value xsi:type="graph:NumericType" type="INT"/>
+    </properties>
+    <properties name="url">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <constraints xsi:type="graph:UniqueConstraint" name="constraint_2b4f13ce" properties="//@items.1/@properties.4"/>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Game" nodes="//@items.14">
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <constraints xsi:type="graph:UniqueConstraint" name="constraint_d7191a75" properties="//@items.2/@properties.0"/>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Language" nodes="//@items.15">
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <constraints xsi:type="graph:UniqueConstraint" name="constraint_5018efe5" properties="//@items.3/@properties.0"/>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Team" nodes="//@items.13">
+    <properties name="createdAt">
+      <value xsi:type="graph:TemporalTypes"/>
+    </properties>
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="id">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <constraints xsi:type="graph:UniqueConstraint" name="constraint_5101b27d" properties="//@items.4/@properties.2"/>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="CHATTER" edges="//@items.19 //@items.20"/>
+  <items xsi:type="graph:EdgeLabel" name="HAS_LANGUAGE" edges="//@items.17"/>
+  <items xsi:type="graph:EdgeLabel" name="HAS_TEAM" edges="//@items.21"/>
+  <items xsi:type="graph:EdgeLabel" name="MODERATOR" edges="//@items.18 //@items.24"/>
+  <items xsi:type="graph:EdgeLabel" name="PLAYS" edges="//@items.16"/>
+  <items xsi:type="graph:EdgeLabel" name="VIP" edges="//@items.22 //@items.23"/>
+  <items xsi:type="graph:NodeType" label="//@items.0" outgoing="//@items.18 //@items.19 //@items.22"/>
+  <items xsi:type="graph:NodeType" label="//@items.1 //@items.0" outgoing="//@items.16 //@items.17 //@items.20 //@items.21 //@items.23 //@items.24" incoming="//@items.18 //@items.19 //@items.20 //@items.22 //@items.23 //@items.24"/>
+  <items xsi:type="graph:NodeType" label="//@items.4" incoming="//@items.21"/>
+  <items xsi:type="graph:NodeType" label="//@items.2" incoming="//@items.16"/>
+  <items xsi:type="graph:NodeType" label="//@items.3" incoming="//@items.17"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.9" src="//@items.12" tgt="//@items.14"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.6" src="//@items.12" tgt="//@items.15"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.8" src="//@items.11" tgt="//@items.12"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.5" src="//@items.11" tgt="//@items.12"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.5" src="//@items.12" tgt="//@items.12"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.7" src="//@items.12" tgt="//@items.13"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.10" src="//@items.11" tgt="//@items.12"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.10" src="//@items.12" tgt="//@items.12"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.8" src="//@items.12" tgt="//@items.12"/>
+</graph:PropertyGraph>

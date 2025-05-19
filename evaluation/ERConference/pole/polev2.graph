@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph:PropertyGraph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:graph="http://www.thm.de/graph" name="MyGraph">
+  <items xsi:type="graph:NodeLabel" name="Witness" nodes="//@items.34"/>
+  <items xsi:type="graph:NodeLabel" name="Person" nodes="//@items.34">
+    <properties name="age">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="nhs_no">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="surname">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Location" nodes="//@items.29">
+    <properties name="latitude">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+    <properties name="postcode">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="longitude">
+      <value xsi:type="graph:NumericType" type="FLOAT"/>
+    </properties>
+    <properties name="address">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Phone" nodes="//@items.35">
+    <properties name="phoneNo">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Email" nodes="//@items.36">
+    <properties name="email_address">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Officer" nodes="//@items.31">
+    <properties name="badge_no">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="name">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="surname">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Crime" nodes="//@items.28">
+    <properties name="date">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="id">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="type">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="last_outcome">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="note">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="charge">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="PhoneCall" nodes="//@items.33">
+    <properties name="call_duration">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="call_time">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="call_date">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="call_type">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="ZIP" nodes="//@items.30">
+    <properties name="code">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Area" nodes="//@items.37">
+    <properties name="areaCode">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Vehicle" nodes="//@items.32">
+    <properties name="model">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="reg">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="make">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="year">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:NodeLabel" name="Object" nodes="//@items.38">
+    <properties name="id">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+    <properties name="description">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="CALLED" edges="//@items.47"/>
+  <items xsi:type="graph:EdgeLabel" name="CURRENT_ADDRESS" edges="//@items.39"/>
+  <items xsi:type="graph:EdgeLabel" name="FAMILY_REL" edges="//@items.52">
+    <properties name="rel_type">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="HAS_EMAIL" edges="//@items.41"/>
+  <items xsi:type="graph:EdgeLabel" name="HAS_PHONE" edges="//@items.40">
+    <properties name="since">
+      <value xsi:type="graph:StringType" type="STRING"/>
+    </properties>
+  </items>
+  <items xsi:type="graph:EdgeLabel" name="HAS_POSTCODE" edges="//@items.44"/>
+  <items xsi:type="graph:EdgeLabel" name="INVESTIGATED_BY" edges="//@items.50"/>
+  <items xsi:type="graph:EdgeLabel" name="INVOLVED_IN" edges="//@items.46 //@items.54"/>
+  <items xsi:type="graph:EdgeLabel" name="KNOWS" edges="//@items.43"/>
+  <items xsi:type="graph:EdgeLabel" name="KNOWS_LW" edges="//@items.53"/>
+  <items xsi:type="graph:EdgeLabel" name="KNOWS_PHONE" edges="//@items.48"/>
+  <items xsi:type="graph:EdgeLabel" name="KNOWS_SN" edges="//@items.42"/>
+  <items xsi:type="graph:EdgeLabel" name="LOCATION_IN_AREA" edges="//@items.55"/>
+  <items xsi:type="graph:EdgeLabel" name="OCCURRED_AT" edges="//@items.49"/>
+  <items xsi:type="graph:EdgeLabel" name="PARTY_TO" edges="//@items.51"/>
+  <items xsi:type="graph:EdgeLabel" name="POSTCODE_IN_AREA" edges="//@items.45"/>
+  <items xsi:type="graph:NodeType" label="//@items.6" outgoing="//@items.49 //@items.50" incoming="//@items.46 //@items.51 //@items.54"/>
+  <items xsi:type="graph:NodeType" label="//@items.2" outgoing="//@items.44 //@items.55" incoming="//@items.39 //@items.49"/>
+  <items xsi:type="graph:NodeType" label="//@items.8" outgoing="//@items.45" incoming="//@items.44"/>
+  <items xsi:type="graph:NodeType" label="//@items.5" incoming="//@items.50"/>
+  <items xsi:type="graph:NodeType" label="//@items.10" outgoing="//@items.54"/>
+  <items xsi:type="graph:NodeType" label="//@items.7" outgoing="//@items.47" incoming="//@items.40 //@items.47"/>
+  <items xsi:type="graph:NodeType" label="//@items.1 //@items.0" outgoing="//@items.39 //@items.40 //@items.41 //@items.42 //@items.43 //@items.48 //@items.51 //@items.52 //@items.53" incoming="//@items.42 //@items.43 //@items.48 //@items.52 //@items.53"/>
+  <items xsi:type="graph:NodeType" label="//@items.3"/>
+  <items xsi:type="graph:NodeType" label="//@items.4" incoming="//@items.41"/>
+  <items xsi:type="graph:NodeType" label="//@items.9" incoming="//@items.45 //@items.55"/>
+  <items xsi:type="graph:NodeType" label="//@items.11" outgoing="//@items.46"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.13" src="//@items.34" tgt="//@items.29"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.16" src="//@items.34" tgt="//@items.33"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.15" src="//@items.34" tgt="//@items.36"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.23" src="//@items.34" tgt="//@items.34"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.20" src="//@items.34" tgt="//@items.34"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.17" src="//@items.29" tgt="//@items.30"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.27" src="//@items.30" tgt="//@items.37"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.19" src="//@items.38" tgt="//@items.28"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.12" src="//@items.33" tgt="//@items.33"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.22" src="//@items.34" tgt="//@items.34"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.25" src="//@items.28" tgt="//@items.29"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.18" src="//@items.28" tgt="//@items.31"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.26" src="//@items.34" tgt="//@items.28"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.14" src="//@items.34" tgt="//@items.34"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.21" src="//@items.34" tgt="//@items.34"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.19" src="//@items.32" tgt="//@items.28"/>
+  <items xsi:type="graph:EdgeType" labels="//@items.24" src="//@items.29" tgt="//@items.37"/>
+</graph:PropertyGraph>

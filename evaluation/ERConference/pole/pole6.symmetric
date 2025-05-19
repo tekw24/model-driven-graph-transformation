@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="ASCII"?>
+<symmetric:SymmetricDifference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:symmetric="http://www.sidiff.org/difference/symmetric/1.0" uriModelA="platform:/resource/ERConference/pole/pole.graph" uriModelB="platform:/resource/ERConference/pole/polev2.graph" notOverlappings="//@changeSets.0 //@changeSets.3 //@changeSets.4 //@changeSets.6 //@changeSets.7 //@changeSets.8 //@changeSets.9">
+  <changes xsi:type="symmetric:RemoveObject">
+    <obj href="pole.graph#//@items.4/@properties.1"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.4/@properties.1"/>
+    <tgt href="pole.graph#//@items.4/@properties.1/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveObject">
+    <obj href="pole.graph#//@items.10/@properties.2"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.10/@properties.2"/>
+    <tgt href="pole.graph#//@items.10/@properties.2/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveObject">
+    <obj href="pole.graph#//@items.10/@properties.2/@value"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveObject">
+    <obj href="pole.graph#//@items.47"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.47"/>
+    <tgt href="pole.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.47"/>
+    <tgt href="pole.graph#//@items.12"/>
+    <type href="http://www.thm.de/graph#//EdgeType/labels"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.47"/>
+    <tgt href="pole.graph#//@items.33"/>
+    <type href="http://www.thm.de/graph#//EdgeType/src"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.47"/>
+    <tgt href="pole.graph#//@items.33"/>
+    <type href="http://www.thm.de/graph#//EdgeType/tgt"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveObject">
+    <obj href="pole.graph#//@items.12"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.12"/>
+    <tgt href="pole.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.12"/>
+    <tgt href="pole.graph#//@items.47"/>
+    <type href="http://www.thm.de/graph#//EdgeLabel/edges"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="polev2.graph#//@items.0"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="polev2.graph#//@items.0"/>
+    <tgt href="polev2.graph#/"/>
+    <type href="http://www.thm.de/graph#//GraphItem/graph"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="polev2.graph#//@items.0"/>
+    <tgt href="polev2.graph#//@items.34"/>
+    <type href="http://www.thm.de/graph#//NodeLabel/nodes"/>
+  </changes>
+  <changes xsi:type="symmetric:AddObject">
+    <obj href="polev2.graph#//@items.16/@properties.0"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="polev2.graph#//@items.16/@properties.0"/>
+    <tgt href="polev2.graph#//@items.16/@properties.0/@value"/>
+    <type href="http://www.thm.de/graph#//Property/value"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#/"/>
+    <tgt href="pole.graph#//@items.47"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#/"/>
+    <tgt href="pole.graph#//@items.12"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="polev2.graph#/"/>
+    <tgt href="polev2.graph#//@items.0"/>
+    <type href="http://www.thm.de/graph#//PropertyGraph/items"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.10"/>
+    <tgt href="pole.graph#//@items.10/@properties.2"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.4"/>
+    <tgt href="pole.graph#//@items.4/@properties.1"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="polev2.graph#//@items.16"/>
+    <tgt href="polev2.graph#//@items.16/@properties.0"/>
+    <type href="http://www.thm.de/graph#//Label/properties"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.33"/>
+    <tgt href="pole.graph#//@items.47"/>
+    <type href="http://www.thm.de/graph#//NodeType/outgoing"/>
+  </changes>
+  <changes xsi:type="symmetric:RemoveReference">
+    <src href="pole.graph#//@items.33"/>
+    <tgt href="pole.graph#//@items.47"/>
+    <type href="http://www.thm.de/graph#//NodeType/incoming"/>
+  </changes>
+  <changes xsi:type="symmetric:AttributeValueChange">
+    <objA href="pole.graph#//@items.7"/>
+    <objB href="polev2.graph#//@items.8"/>
+    <type href="http://www.thm.de/graph#//Label/name"/>
+  </changes>
+  <changes xsi:type="symmetric:AddReference">
+    <src href="polev2.graph#//@items.34"/>
+    <tgt href="polev2.graph#//@items.0"/>
+    <type href="http://www.thm.de/graph#//NodeType/label"/>
+  </changes>
+  <changeSets changes="//@changes.10 //@changes.19 //@changes.11" name="DELETE_EdgeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: DELETE_EdgeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="DELETE_EdgeLabel_IN_PropertyGraph_(items)" description="Deletes one EdgeLabel in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPySOBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPySNhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPySNhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.2 //@changes.4 //@changes.21 //@changes.3" name="DELETE_Property_IN_Label_(properties)" priority="1" recognitionRName="RR: DELETE_Property_IN_Label_(properties)" refinementLevel="4" editRName="DELETE_Property_IN_Label_(properties)" subsets="//@unusedChangeSets.2" description="Deletes one Property in Label" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQPlORuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.10/@properties.2"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VQPlNxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.10"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VQPlOxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.10/@properties.2/@value"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQPlNxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#//@items.11"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.15 //@changes.27" name="ADD_NodeLabel_(nodes)_TGT_NodeType" priority="1" recognitionRName="RR: ADD_NodeLabel_(nodes)_TGT_NodeType" refinementLevel="5" editRName="ADD_NodeLabel_(nodes)_TGT_NodeType" overlayings="//@unusedChangeSets.0" description="Adds to NodeLabel's reference nodes the target NodeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VN6p9xuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.34"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VN6p9huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#//@items.0"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VN6p9xuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#//@items.34"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.24 //@changes.8" name="REMOVE_NodeType_(outgoing)_TGT_EdgeType" priority="1" recognitionRName="RR: REMOVE_NodeType_(outgoing)_TGT_EdgeType" refinementLevel="4" editRName="REMOVE_NodeType_(outgoing)_TGT_EdgeType" description="Removes NodeType's reference outgoing the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VO8ktxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.47"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VO8kthuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.33"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VO8kthuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#//@items.33"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.5 //@changes.18 //@changes.6" name="DELETE_EdgeType_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: DELETE_EdgeType_IN_PropertyGraph_(items)" refinementLevel="3" editRName="DELETE_EdgeType_IN_PropertyGraph_(items)" description="Deletes one EdgeType in PropertyGraph" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPR75huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPR76BuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.47"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPR75huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.7 //@changes.12" name="REMOVE_EdgeType_(labels)_TGT_EdgeLabel" priority="1" recognitionRName="RR: REMOVE_EdgeType_(labels)_TGT_EdgeLabel" refinementLevel="5" editRName="REMOVE_EdgeType_(labels)_TGT_EdgeLabel" overlayings="//@unusedChangeSets.1" description="Removes EdgeType's reference labels the target EdgeLabel" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPMcVhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.47"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPMcVxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.12"/>
+        </value>
+      </nodeOccurrencesA>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.13 //@changes.20 //@changes.14" name="CREATE_NodeLabel_IN_PropertyGraph_(items)" priority="1" recognitionRName="RR: CREATE_NodeLabel_IN_PropertyGraph_(items)" refinementLevel="4" editRName="CREATE_NodeLabel_IN_PropertyGraph_(items)" description="Creates one NodeLabel in PropertyGraph" numberOfParams="3">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#/"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VOOzBxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#/"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VOOzDBuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#//@items.0"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.16 //@changes.23" name="CREATE_Property_IN_LABEL_(properties)" priority="1" recognitionRName="RR: CREATE_Property_IN_LABEL_(properties)" refinementLevel="3" editRName="CREATE_Property_IN_LABEL_(properties)" description="Creates one property in label" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPfXRhuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#//@items.16"/>
+        </value>
+      </nodeOccurrencesB>
+      <nodeOccurrencesB key="_VPfXSxuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#//@items.16/@properties.0"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.25 //@changes.9" name="REMOVE_NodeType_(incoming)_TGT_EdgeType" priority="1" recognitionRName="RR: REMOVE_NodeType_(incoming)_TGT_EdgeType" refinementLevel="4" editRName="REMOVE_NodeType_(incoming)_TGT_EdgeType" description="Removes NodeType's reference incoming the target EdgeType" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VPbF1xuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.47"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesA key="_VPbF1huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.33"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VPbF1huOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#//@items.33"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <changeSets changes="//@changes.26" name="SET_ATTRIBUTE_Label_Name" priority="1" recognitionRName="RR: SET_ATTRIBUTE_Label_Name" refinementLevel="2" editRName="SET_ATTRIBUTE_Label_Name" description="Sets Label Name" numberOfParams="2">
+    <editRuleMatch>
+      <nodeOccurrencesA key="_VQKFpRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="pole.graph#//@items.7"/>
+        </value>
+      </nodeOccurrencesA>
+      <nodeOccurrencesB key="_VQKFpRuOEfCiO5YsU3IcKQ">
+        <value>
+          <elements href="polev2.graph#//@items.8"/>
+        </value>
+      </nodeOccurrencesB>
+    </editRuleMatch>
+  </changeSets>
+  <unusedChangeSets changes="//@changes.27 //@changes.15" name="ADD_NodeType_(label)_TGT_NodeLabel" priority="1" recognitionRName="RR: ADD_NodeType_(label)_TGT_NodeLabel" refinementLevel="5" editRName="ADD_NodeType_(label)_TGT_NodeLabel" overlayings="//@changeSets.2" description="Adds to NodeType's reference label the target NodeLabel" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.12 //@changes.7" name="REMOVE_EdgeLabel_(edges)_TGT_EdgeType" priority="1" recognitionRName="RR: REMOVE_EdgeLabel_(edges)_TGT_EdgeType" refinementLevel="5" editRName="REMOVE_EdgeLabel_(edges)_TGT_EdgeType" overlayings="//@changeSets.5" description="Removes EdgeLabel's reference edges the target EdgeType" numberOfParams="2"/>
+  <unusedChangeSets changes="//@changes.4" name="DELETE_StringType" priority="1" recognitionRName="RR: DELETE_StringType" refinementLevel="2" editRName="DELETE_StringType" supersets="//@changeSets.1" description="Deletes one StringType" numberOfParams="1"/>
+  <matching uriA="platform:/resource/ERConference/pole/pole.graph" uriB="platform:/resource/ERConference/pole/polev2.graph">
+    <correspondences containmentCorrespondences="//@matching/@correspondences.1 //@matching/@correspondences.10 //@matching/@correspondences.13 //@matching/@correspondences.18 //@matching/@correspondences.27 //@matching/@correspondences.32 //@matching/@correspondences.41 //@matching/@correspondences.54 //@matching/@correspondences.62 //@matching/@correspondences.65 //@matching/@correspondences.68 //@matching/@correspondences.77 //@matching/@correspondences.78 //@matching/@correspondences.79 //@matching/@correspondences.80 //@matching/@correspondences.81 //@matching/@correspondences.82 //@matching/@correspondences.83 //@matching/@correspondences.84 //@matching/@correspondences.85 //@matching/@correspondences.86 //@matching/@correspondences.87 //@matching/@correspondences.88 //@matching/@correspondences.89 //@matching/@correspondences.90 //@matching/@correspondences.91 //@matching/@correspondences.92 //@matching/@correspondences.93 //@matching/@correspondences.94 //@matching/@correspondences.95 //@matching/@correspondences.96 //@matching/@correspondences.97 //@matching/@correspondences.98 //@matching/@correspondences.99 //@matching/@correspondences.100 //@matching/@correspondences.101 //@matching/@correspondences.102 //@matching/@correspondences.103 //@matching/@correspondences.104 //@matching/@correspondences.105 //@matching/@correspondences.106 //@matching/@correspondences.107 //@matching/@correspondences.108 //@matching/@correspondences.109 //@matching/@correspondences.110 //@matching/@correspondences.111 //@matching/@correspondences.112 //@matching/@correspondences.113 //@matching/@correspondences.114">
+      <matchedA href="pole.graph#/"/>
+      <matchedB href="polev2.graph#/"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.2 //@matching/@correspondences.4 //@matching/@correspondences.6 //@matching/@correspondences.8">
+      <matchedA href="pole.graph#//@items.1"/>
+      <matchedB href="polev2.graph#//@items.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.3">
+      <matchedA href="pole.graph#//@items.1/@properties.2"/>
+      <matchedB href="polev2.graph#//@items.2/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.2">
+      <matchedA href="pole.graph#//@items.1/@properties.2/@value"/>
+      <matchedB href="polev2.graph#//@items.2/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.5">
+      <matchedA href="pole.graph#//@items.1/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.2/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.4">
+      <matchedA href="pole.graph#//@items.1/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.2/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.7">
+      <matchedA href="pole.graph#//@items.1/@properties.3"/>
+      <matchedB href="polev2.graph#//@items.2/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.6">
+      <matchedA href="pole.graph#//@items.1/@properties.3/@value"/>
+      <matchedB href="polev2.graph#//@items.2/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.1" containmentCorrespondences="//@matching/@correspondences.9">
+      <matchedA href="pole.graph#//@items.1/@properties.1"/>
+      <matchedB href="polev2.graph#//@items.2/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.8">
+      <matchedA href="pole.graph#//@items.1/@properties.1/@value"/>
+      <matchedB href="polev2.graph#//@items.2/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.11">
+      <matchedA href="pole.graph#//@items.14"/>
+      <matchedB href="polev2.graph#//@items.14"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.10" containmentCorrespondences="//@matching/@correspondences.12">
+      <matchedA href="pole.graph#//@items.14/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.14/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.11">
+      <matchedA href="pole.graph#//@items.14/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.14/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.14 //@matching/@correspondences.16">
+      <matchedA href="pole.graph#//@items.10"/>
+      <matchedB href="polev2.graph#//@items.11"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.13" containmentCorrespondences="//@matching/@correspondences.15">
+      <matchedA href="pole.graph#//@items.10/@properties.1"/>
+      <matchedB href="polev2.graph#//@items.11/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.14">
+      <matchedA href="pole.graph#//@items.10/@properties.1/@value"/>
+      <matchedB href="polev2.graph#//@items.11/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.13" containmentCorrespondences="//@matching/@correspondences.17">
+      <matchedA href="pole.graph#//@items.10/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.11/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.16">
+      <matchedA href="pole.graph#//@items.10/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.11/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.19 //@matching/@correspondences.21 //@matching/@correspondences.23 //@matching/@correspondences.25">
+      <matchedA href="pole.graph#//@items.9"/>
+      <matchedB href="polev2.graph#//@items.10"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.18" containmentCorrespondences="//@matching/@correspondences.20">
+      <matchedA href="pole.graph#//@items.9/@properties.3"/>
+      <matchedB href="polev2.graph#//@items.10/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.19">
+      <matchedA href="pole.graph#//@items.9/@properties.3/@value"/>
+      <matchedB href="polev2.graph#//@items.10/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.18" containmentCorrespondences="//@matching/@correspondences.22">
+      <matchedA href="pole.graph#//@items.9/@properties.2"/>
+      <matchedB href="polev2.graph#//@items.10/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.21">
+      <matchedA href="pole.graph#//@items.9/@properties.2/@value"/>
+      <matchedB href="polev2.graph#//@items.10/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.18" containmentCorrespondences="//@matching/@correspondences.24">
+      <matchedA href="pole.graph#//@items.9/@properties.1"/>
+      <matchedB href="polev2.graph#//@items.10/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.23">
+      <matchedA href="pole.graph#//@items.9/@properties.1/@value"/>
+      <matchedB href="polev2.graph#//@items.10/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.18" containmentCorrespondences="//@matching/@correspondences.26">
+      <matchedA href="pole.graph#//@items.9/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.10/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.25">
+      <matchedA href="pole.graph#//@items.9/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.10/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.28">
+      <matchedA href="pole.graph#//@items.8"/>
+      <matchedB href="polev2.graph#//@items.9"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.27" containmentCorrespondences="//@matching/@correspondences.29">
+      <matchedA href="pole.graph#//@items.8/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.9/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.28">
+      <matchedA href="pole.graph#//@items.8/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.9/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containmentCorrespondences="//@matching/@correspondences.31">
+      <matchedA href="pole.graph#//@items.7/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.8/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.30">
+      <matchedA href="pole.graph#//@items.7/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.8/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.33 //@matching/@correspondences.35 //@matching/@correspondences.37 //@matching/@correspondences.39">
+      <matchedA href="pole.graph#//@items.6"/>
+      <matchedB href="polev2.graph#//@items.7"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.32" containmentCorrespondences="//@matching/@correspondences.34">
+      <matchedA href="pole.graph#//@items.6/@properties.3"/>
+      <matchedB href="polev2.graph#//@items.7/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.33">
+      <matchedA href="pole.graph#//@items.6/@properties.3/@value"/>
+      <matchedB href="polev2.graph#//@items.7/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.32" containmentCorrespondences="//@matching/@correspondences.36">
+      <matchedA href="pole.graph#//@items.6/@properties.2"/>
+      <matchedB href="polev2.graph#//@items.7/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.35">
+      <matchedA href="pole.graph#//@items.6/@properties.2/@value"/>
+      <matchedB href="polev2.graph#//@items.7/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.32" containmentCorrespondences="//@matching/@correspondences.38">
+      <matchedA href="pole.graph#//@items.6/@properties.1"/>
+      <matchedB href="polev2.graph#//@items.7/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.37">
+      <matchedA href="pole.graph#//@items.6/@properties.1/@value"/>
+      <matchedB href="polev2.graph#//@items.7/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.32" containmentCorrespondences="//@matching/@correspondences.40">
+      <matchedA href="pole.graph#//@items.6/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.7/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.39">
+      <matchedA href="pole.graph#//@items.6/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.7/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.42 //@matching/@correspondences.44 //@matching/@correspondences.46 //@matching/@correspondences.48 //@matching/@correspondences.50 //@matching/@correspondences.52">
+      <matchedA href="pole.graph#//@items.5"/>
+      <matchedB href="polev2.graph#//@items.6"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.41" containmentCorrespondences="//@matching/@correspondences.43">
+      <matchedA href="pole.graph#//@items.5/@properties.5"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.5"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.42">
+      <matchedA href="pole.graph#//@items.5/@properties.5/@value"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.5/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.41" containmentCorrespondences="//@matching/@correspondences.45">
+      <matchedA href="pole.graph#//@items.5/@properties.4"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.4"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.44">
+      <matchedA href="pole.graph#//@items.5/@properties.4/@value"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.4/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.41" containmentCorrespondences="//@matching/@correspondences.47">
+      <matchedA href="pole.graph#//@items.5/@properties.3"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.46">
+      <matchedA href="pole.graph#//@items.5/@properties.3/@value"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.41" containmentCorrespondences="//@matching/@correspondences.49">
+      <matchedA href="pole.graph#//@items.5/@properties.2"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.48">
+      <matchedA href="pole.graph#//@items.5/@properties.2/@value"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.41" containmentCorrespondences="//@matching/@correspondences.51">
+      <matchedA href="pole.graph#//@items.5/@properties.1"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.50">
+      <matchedA href="pole.graph#//@items.5/@properties.1/@value"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.41" containmentCorrespondences="//@matching/@correspondences.53">
+      <matchedA href="pole.graph#//@items.5/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.52">
+      <matchedA href="pole.graph#//@items.5/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.6/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.55 //@matching/@correspondences.57 //@matching/@correspondences.60">
+      <matchedA href="pole.graph#//@items.4"/>
+      <matchedB href="polev2.graph#//@items.5"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.54" containmentCorrespondences="//@matching/@correspondences.56">
+      <matchedA href="pole.graph#//@items.4/@properties.3"/>
+      <matchedB href="polev2.graph#//@items.5/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.55">
+      <matchedA href="pole.graph#//@items.4/@properties.3/@value"/>
+      <matchedB href="polev2.graph#//@items.5/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.54" containmentCorrespondences="//@matching/@correspondences.58">
+      <matchedA href="pole.graph#//@items.4/@properties.2"/>
+      <matchedB href="polev2.graph#//@items.5/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.57">
+      <matchedA href="pole.graph#//@items.4/@properties.2/@value"/>
+      <matchedB href="polev2.graph#//@items.5/@properties.1/@value"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="pole.graph#//@items.4/@properties.1/@value"/>
+      <matchedB href="polev2.graph#//@items.16/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.54" containmentCorrespondences="//@matching/@correspondences.61">
+      <matchedA href="pole.graph#//@items.4/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.5/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.60">
+      <matchedA href="pole.graph#//@items.4/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.5/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.63">
+      <matchedA href="pole.graph#//@items.3"/>
+      <matchedB href="polev2.graph#//@items.4"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.62" containmentCorrespondences="//@matching/@correspondences.64">
+      <matchedA href="pole.graph#//@items.3/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.4/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.63">
+      <matchedA href="pole.graph#//@items.3/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.4/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.66">
+      <matchedA href="pole.graph#//@items.2"/>
+      <matchedB href="polev2.graph#//@items.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.65" containmentCorrespondences="//@matching/@correspondences.67">
+      <matchedA href="pole.graph#//@items.2/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.3/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.66">
+      <matchedA href="pole.graph#//@items.2/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.3/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0" containmentCorrespondences="//@matching/@correspondences.69 //@matching/@correspondences.71 //@matching/@correspondences.73 //@matching/@correspondences.75">
+      <matchedA href="pole.graph#//@items.0"/>
+      <matchedB href="polev2.graph#//@items.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.68" containmentCorrespondences="//@matching/@correspondences.70">
+      <matchedA href="pole.graph#//@items.0/@properties.3"/>
+      <matchedB href="polev2.graph#//@items.1/@properties.0"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.69">
+      <matchedA href="pole.graph#//@items.0/@properties.3/@value"/>
+      <matchedB href="polev2.graph#//@items.1/@properties.0/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.68" containmentCorrespondences="//@matching/@correspondences.72">
+      <matchedA href="pole.graph#//@items.0/@properties.2"/>
+      <matchedB href="polev2.graph#//@items.1/@properties.1"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.71">
+      <matchedA href="pole.graph#//@items.0/@properties.2/@value"/>
+      <matchedB href="polev2.graph#//@items.1/@properties.1/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.68" containmentCorrespondences="//@matching/@correspondences.74">
+      <matchedA href="pole.graph#//@items.0/@properties.1"/>
+      <matchedB href="polev2.graph#//@items.1/@properties.2"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.73">
+      <matchedA href="pole.graph#//@items.0/@properties.1/@value"/>
+      <matchedB href="polev2.graph#//@items.1/@properties.2/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.68" containmentCorrespondences="//@matching/@correspondences.76">
+      <matchedA href="pole.graph#//@items.0/@properties.0"/>
+      <matchedB href="polev2.graph#//@items.1/@properties.3"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.75">
+      <matchedA href="pole.graph#//@items.0/@properties.0/@value"/>
+      <matchedB href="polev2.graph#//@items.1/@properties.3/@value"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.46"/>
+      <matchedB href="polev2.graph#//@items.46"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.50"/>
+      <matchedB href="polev2.graph#//@items.49"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.51"/>
+      <matchedB href="polev2.graph#//@items.50"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.55"/>
+      <matchedB href="polev2.graph#//@items.54"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.56"/>
+      <matchedB href="polev2.graph#//@items.55"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.13"/>
+      <matchedB href="polev2.graph#//@items.13"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.15"/>
+      <matchedB href="polev2.graph#//@items.15"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.16"/>
+      <matchedB href="polev2.graph#//@items.16"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.17"/>
+      <matchedB href="polev2.graph#//@items.17"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.18"/>
+      <matchedB href="polev2.graph#//@items.18"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.19"/>
+      <matchedB href="polev2.graph#//@items.19"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.20"/>
+      <matchedB href="polev2.graph#//@items.20"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.21"/>
+      <matchedB href="polev2.graph#//@items.21"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.22"/>
+      <matchedB href="polev2.graph#//@items.22"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.23"/>
+      <matchedB href="polev2.graph#//@items.23"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.24"/>
+      <matchedB href="polev2.graph#//@items.24"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.25"/>
+      <matchedB href="polev2.graph#//@items.25"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.26"/>
+      <matchedB href="polev2.graph#//@items.26"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.27"/>
+      <matchedB href="polev2.graph#//@items.27"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.36"/>
+      <matchedB href="polev2.graph#//@items.36"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.38"/>
+      <matchedB href="polev2.graph#//@items.38"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.37"/>
+      <matchedB href="polev2.graph#//@items.37"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.33"/>
+      <matchedB href="polev2.graph#//@items.33"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.31"/>
+      <matchedB href="polev2.graph#//@items.31"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.29"/>
+      <matchedB href="polev2.graph#//@items.29"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.28"/>
+      <matchedB href="polev2.graph#//@items.28"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.35"/>
+      <matchedB href="polev2.graph#//@items.35"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.32"/>
+      <matchedB href="polev2.graph#//@items.32"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.39"/>
+      <matchedB href="polev2.graph#//@items.39"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.40"/>
+      <matchedB href="polev2.graph#//@items.40"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.41"/>
+      <matchedB href="polev2.graph#//@items.41"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.42"/>
+      <matchedB href="polev2.graph#//@items.42"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.43"/>
+      <matchedB href="polev2.graph#//@items.43"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.48"/>
+      <matchedB href="polev2.graph#//@items.47"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.49"/>
+      <matchedB href="polev2.graph#//@items.48"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.52"/>
+      <matchedB href="polev2.graph#//@items.51"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.53"/>
+      <matchedB href="polev2.graph#//@items.52"/>
+    </correspondences>
+    <correspondences containerCorrespondence="//@matching/@correspondences.0">
+      <matchedA href="pole.graph#//@items.54"/>
+      <matchedB href="polev2.graph#//@items.53"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="pole.graph#//@items.7"/>
+      <matchedB href="polev2.graph#//@items.8"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="pole.graph#//@items.11"/>
+      <matchedB href="polev2.graph#//@items.12"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="pole.graph#//@items.44"/>
+      <matchedB href="polev2.graph#//@items.44"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="pole.graph#//@items.45"/>
+      <matchedB href="polev2.graph#//@items.45"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="pole.graph#//@items.30"/>
+      <matchedB href="polev2.graph#//@items.30"/>
+    </correspondences>
+    <correspondences>
+      <matchedA href="pole.graph#//@items.34"/>
+      <matchedB href="polev2.graph#//@items.34"/>
+    </correspondences>
+    <unmatchedA href="pole.graph#//@items.4/@properties.1"/>
+    <unmatchedA href="pole.graph#//@items.10/@properties.2"/>
+    <unmatchedA href="pole.graph#//@items.10/@properties.2/@value"/>
+    <unmatchedA href="pole.graph#//@items.47"/>
+    <unmatchedA href="pole.graph#//@items.12"/>
+    <unmatchedB href="polev2.graph#//@items.0"/>
+    <unmatchedB href="polev2.graph#//@items.16/@properties.0"/>
+  </matching>
+</symmetric:SymmetricDifference>
