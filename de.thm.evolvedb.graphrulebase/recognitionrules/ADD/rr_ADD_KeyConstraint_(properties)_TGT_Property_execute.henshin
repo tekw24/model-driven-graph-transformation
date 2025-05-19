@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_rGXGKTL2EfCqhvJcT4TvYg" name="RR: ADD_KeyConstraint_(properties)_TGT_Property" description="Recognize: Adds to KeyConstraint's reference properties the target Property">
+  <imports href="http://www.sidiff.org/difference/symmetric/1.0#/"/>
+  <imports href="http://www.sidiff.org/matching/model#/"/>
+  <imports href="http://www.thm.de/graph#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_rGXGKjL2EfCqhvJcT4TvYg" name="rr:addToKeyConstraint_properties_Property" description="Recognize: Adds to KeyConstraint's reference properties the target Property">
+    <parameters xmi:id="_rGXGKzL2EfCqhvJcT4TvYg" name="Selected">
+      <type xsi:type="ecore:EClass" href="http://www.thm.de/graph#//KeyConstraint"/>
+    </parameters>
+    <parameters xmi:id="_rGXGLDL2EfCqhvJcT4TvYg" name="NewTarget">
+      <type xsi:type="ecore:EClass" href="http://www.thm.de/graph#//Property"/>
+    </parameters>
+    <lhs xmi:id="_rGXGLTL2EfCqhvJcT4TvYg" name="Lhs">
+      <nodes xmi:id="_rGXGLjL2EfCqhvJcT4TvYg" name="B.Selected" incoming="_rGXGNDL2EfCqhvJcT4TvYg" outgoing="_rGXGNzL2EfCqhvJcT4TvYg">
+        <type href="http://www.thm.de/graph#//KeyConstraint"/>
+      </nodes>
+      <nodes xmi:id="_rGXGLzL2EfCqhvJcT4TvYg" name="B.NewTarget" incoming="_rGXGNTL2EfCqhvJcT4TvYg _rGXGNzL2EfCqhvJcT4TvYg">
+        <type href="http://www.thm.de/graph#//Property"/>
+      </nodes>
+      <nodes xmi:id="_rGXGMDL2EfCqhvJcT4TvYg" name="" outgoing="_rGXGNDL2EfCqhvJcT4TvYg _rGXGNTL2EfCqhvJcT4TvYg _rGXGNjL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//AddReference"/>
+      </nodes>
+      <nodes xmi:id="_rGXGMTL2EfCqhvJcT4TvYg" name="" incoming="_rGXGNjL2EfCqhvJcT4TvYg">
+        <type href="http://www.eclipse.org/emf/2002/Ecore#//EReference"/>
+        <attributes xmi:id="_rGXGMjL2EfCqhvJcT4TvYg" value="&quot;properties&quot;">
+          <type href="http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_rGXGMzL2EfCqhvJcT4TvYg" name="">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//SymmetricDifference"/>
+      </nodes>
+      <edges xmi:id="_rGXGNDL2EfCqhvJcT4TvYg" source="_rGXGMDL2EfCqhvJcT4TvYg" target="_rGXGLjL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//AddReference/src"/>
+      </edges>
+      <edges xmi:id="_rGXGNTL2EfCqhvJcT4TvYg" source="_rGXGMDL2EfCqhvJcT4TvYg" target="_rGXGLzL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//AddReference/tgt"/>
+      </edges>
+      <edges xmi:id="_rGXGNjL2EfCqhvJcT4TvYg" source="_rGXGMDL2EfCqhvJcT4TvYg" target="_rGXGMTL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//AddReference/type"/>
+      </edges>
+      <edges xmi:id="_rGXGNzL2EfCqhvJcT4TvYg" source="_rGXGLjL2EfCqhvJcT4TvYg" target="_rGXGLzL2EfCqhvJcT4TvYg">
+        <type href="http://www.thm.de/graph#//KeyConstraint/properties"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_rGXGODL2EfCqhvJcT4TvYg" name="Rhs">
+      <nodes xmi:id="_rGXGOTL2EfCqhvJcT4TvYg" name="B.Selected" incoming="_rGXGRzL2EfCqhvJcT4TvYg" outgoing="_rGXGSjL2EfCqhvJcT4TvYg">
+        <type href="http://www.thm.de/graph#//KeyConstraint"/>
+      </nodes>
+      <nodes xmi:id="_rGXGOjL2EfCqhvJcT4TvYg" name="B.NewTarget" incoming="_rGXGSDL2EfCqhvJcT4TvYg _rGXGSjL2EfCqhvJcT4TvYg">
+        <type href="http://www.thm.de/graph#//Property"/>
+      </nodes>
+      <nodes xmi:id="_rGXGOzL2EfCqhvJcT4TvYg" name="" incoming="_rGXGSzL2EfCqhvJcT4TvYg" outgoing="_rGXGRzL2EfCqhvJcT4TvYg _rGXGSDL2EfCqhvJcT4TvYg _rGXGSTL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//AddReference"/>
+      </nodes>
+      <nodes xmi:id="_rGXGPDL2EfCqhvJcT4TvYg" name="" incoming="_rGXGSTL2EfCqhvJcT4TvYg">
+        <type href="http://www.eclipse.org/emf/2002/Ecore#//EReference"/>
+      </nodes>
+      <nodes xmi:id="_rGXGPTL2EfCqhvJcT4TvYg" name="ChangeSet" incoming="_rGXGTDL2EfCqhvJcT4TvYg" outgoing="_rGXGSzL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//SemanticChangeSet"/>
+        <attributes xmi:id="_rGXGPjL2EfCqhvJcT4TvYg" value="&quot;ADD_KeyConstraint_(properties)_TGT_Property&quot;">
+          <type href="http://www.sidiff.org/difference/symmetric/1.0#//SemanticChangeSet/name"/>
+        </attributes>
+        <attributes xmi:id="_rGXGPzL2EfCqhvJcT4TvYg" value="&quot;Adds to KeyConstraint's reference properties the target Property&quot;">
+          <type href="http://www.sidiff.org/difference/symmetric/1.0#//SemanticChangeSet/description"/>
+        </attributes>
+        <attributes xmi:id="_rGXGQDL2EfCqhvJcT4TvYg" value="&quot;ADD_KeyConstraint_(properties)_TGT_Property&quot;">
+          <type href="http://www.sidiff.org/difference/symmetric/1.0#//SemanticChangeSet/editRName"/>
+        </attributes>
+        <attributes xmi:id="_rGXGQTL2EfCqhvJcT4TvYg" value="&quot;RR: ADD_KeyConstraint_(properties)_TGT_Property&quot;">
+          <type href="http://www.sidiff.org/difference/symmetric/1.0#//SemanticChangeSet/recognitionRName"/>
+        </attributes>
+        <attributes xmi:id="_rGXGQjL2EfCqhvJcT4TvYg" value="1">
+          <type href="http://www.sidiff.org/difference/symmetric/1.0#//SemanticChangeSet/priority"/>
+        </attributes>
+        <attributes xmi:id="_rGXGQzL2EfCqhvJcT4TvYg" value="0">
+          <type href="http://www.sidiff.org/difference/symmetric/1.0#//SemanticChangeSet/numberOfACs"/>
+        </attributes>
+        <attributes xmi:id="_rGXGRDL2EfCqhvJcT4TvYg" value="2">
+          <type href="http://www.sidiff.org/difference/symmetric/1.0#//SemanticChangeSet/numberOfParams"/>
+        </attributes>
+        <attributes xmi:id="_rGXGRTL2EfCqhvJcT4TvYg" value="3">
+          <type href="http://www.sidiff.org/difference/symmetric/1.0#//SemanticChangeSet/refinementLevel"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_rGXGRjL2EfCqhvJcT4TvYg" name="" outgoing="_rGXGTDL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//SymmetricDifference"/>
+      </nodes>
+      <edges xmi:id="_rGXGRzL2EfCqhvJcT4TvYg" source="_rGXGOzL2EfCqhvJcT4TvYg" target="_rGXGOTL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//AddReference/src"/>
+      </edges>
+      <edges xmi:id="_rGXGSDL2EfCqhvJcT4TvYg" source="_rGXGOzL2EfCqhvJcT4TvYg" target="_rGXGOjL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//AddReference/tgt"/>
+      </edges>
+      <edges xmi:id="_rGXGSTL2EfCqhvJcT4TvYg" source="_rGXGOzL2EfCqhvJcT4TvYg" target="_rGXGPDL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//AddReference/type"/>
+      </edges>
+      <edges xmi:id="_rGXGSjL2EfCqhvJcT4TvYg" source="_rGXGOTL2EfCqhvJcT4TvYg" target="_rGXGOjL2EfCqhvJcT4TvYg">
+        <type href="http://www.thm.de/graph#//KeyConstraint/properties"/>
+      </edges>
+      <edges xmi:id="_rGXGSzL2EfCqhvJcT4TvYg" source="_rGXGPTL2EfCqhvJcT4TvYg" target="_rGXGOzL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//SemanticChangeSet/changes"/>
+      </edges>
+      <edges xmi:id="_rGXGTDL2EfCqhvJcT4TvYg" source="_rGXGRjL2EfCqhvJcT4TvYg" target="_rGXGPTL2EfCqhvJcT4TvYg">
+        <type href="http://www.sidiff.org/difference/symmetric/1.0#//SymmetricDifference/changeSets"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_rGXGTTL2EfCqhvJcT4TvYg" origin="_rGXGLjL2EfCqhvJcT4TvYg" image="_rGXGOTL2EfCqhvJcT4TvYg"/>
+    <mappings xmi:id="_rGXGTjL2EfCqhvJcT4TvYg" origin="_rGXGLzL2EfCqhvJcT4TvYg" image="_rGXGOjL2EfCqhvJcT4TvYg"/>
+    <mappings xmi:id="_rGXGTzL2EfCqhvJcT4TvYg" origin="_rGXGMDL2EfCqhvJcT4TvYg" image="_rGXGOzL2EfCqhvJcT4TvYg"/>
+    <mappings xmi:id="_rGXGUDL2EfCqhvJcT4TvYg" origin="_rGXGMTL2EfCqhvJcT4TvYg" image="_rGXGPDL2EfCqhvJcT4TvYg"/>
+    <mappings xmi:id="_rGXGUTL2EfCqhvJcT4TvYg" origin="_rGXGMzL2EfCqhvJcT4TvYg" image="_rGXGRjL2EfCqhvJcT4TvYg"/>
+  </units>
+</henshin:Module>
